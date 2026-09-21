@@ -1,7 +1,7 @@
 {
  "month": "2026-08",
  "group": "משפחת נעם תשפ״ז",
- "updated": "2026-09-20T10:02:24.223Z",
+ "updated": "2026-09-21T19:39:44.434Z",
  "messages": [
   {
    "id": "1a0525a3029afc81",
@@ -346,7 +346,8 @@
      "size": "3.4MB",
      "type": "video/mp4",
      "path": "",
-     "skipped": "גדול מדי לארכיון"
+     "url": "https://drive.google.com/file/d/1AEJa4AT05SphsokfPUcB1jhVl397lBYV/view?usp=drivesdk",
+     "skipped": "גדול מדי לארכיון — בדרייב"
     }
    ],
    "drive": null
@@ -468,7 +469,16 @@
    "ts": 1788195445000,
    "date": "2026-08-31",
    "time": "19:57",
-   "files": [],
+   "files": [
+    {
+     "name": "מדבקה.webp",
+     "size": "120KB",
+     "type": "image/webp",
+     "path": "media/2026-08/1a058c13a76e8036_1.webp",
+     "url": "",
+     "skipped": ""
+    }
+   ],
    "drive": null
   },
   {
@@ -478,7 +488,16 @@
    "ts": 1788196945000,
    "date": "2026-08-31",
    "time": "20:22",
-   "files": [],
+   "files": [
+    {
+     "name": "מדבקה.webp",
+     "size": "30KB",
+     "type": "image/webp",
+     "path": "media/2026-08/1a058d81d00ecfe0_1.webp",
+     "url": "",
+     "skipped": ""
+    }
+   ],
    "drive": null
   },
   {
@@ -494,6 +513,7 @@
      "size": "14KB",
      "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
      "path": "media/2026-08/1a05956fe33347d8_1.docx",
+     "url": "",
      "skipped": ""
     }
    ],
