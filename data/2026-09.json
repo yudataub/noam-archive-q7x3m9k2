@@ -1,7 +1,7 @@
 {
  "month": "2026-09",
  "group": "משפחת נעם תשפ״ז",
- "updated": "2026-09-21T19:31:46.923Z",
+ "updated": "2026-09-21T19:32:05.914Z",
  "messages": [
   {
    "id": "1a05b0fd61a0e542",
@@ -4576,24 +4576,6 @@
    "drive": null
   },
   {
-   "id": "1a0b3a1fcd9df39c",
-   "sender": "המנהלת אורלי אוחנה",
-   "text": "[מסמך]",
-   "ts": 1789720116000,
-   "date": "2026-09-18",
-   "time": "11:28",
-   "files": [
-    {
-     "name": "תמר.jpg",
-     "size": "13.1MB",
-     "type": "image/jpeg",
-     "path": "",
-     "skipped": "גדול מדי לארכיון"
-    }
-   ],
-   "drive": null
-  },
-  {
    "id": "1a0b3a1ddcc61ba5",
    "sender": "המנהלת אורלי אוחנה",
    "text": "[מסמך]",
@@ -4608,6 +4590,25 @@
    }
   },
   {
+   "id": "1a0b3a1fcd9df39c",
+   "sender": "המנהלת אורלי אוחנה",
+   "text": "[מסמך]",
+   "ts": 1789720116000,
+   "date": "2026-09-18",
+   "time": "11:28",
+   "files": [
+    {
+     "name": "תמר.jpg",
+     "size": "13.1MB",
+     "type": "image/jpeg",
+     "path": "",
+     "url": "https://drive.google.com/file/d/1U8IAAQptOO7qucHJ3p9CZ3ry2azdOPbS/view?usp=drivesdk",
+     "skipped": "גדול מדי לארכיון — בדרייב"
+    }
+   ],
+   "drive": null
+  },
+  {
    "id": "1a0b3a20d4cf09c8",
    "sender": "המנהלת אורלי אוחנה",
    "text": "[מסמך]",
@@ -4620,7 +4621,8 @@
      "size": "16.6MB",
      "type": "image/jpeg",
      "path": "",
-     "skipped": "גדול מדי לארכיון"
+     "url": "https://drive.google.com/file/d/1OwWwXWmexhOLFGmGsWCM2BjamUggf5tG/view?usp=drivesdk",
+     "skipped": "גדול מדי לארכיון — בדרייב"
     }
    ],
    "drive": null
@@ -4652,7 +4654,8 @@
      "size": "15.7MB",
      "type": "image/jpeg",
      "path": "",
-     "skipped": "גדול מדי לארכיון"
+     "url": "https://drive.google.com/file/d/103lelvIuGt-dYhNPT2Ld8gYVFWK0604b/view?usp=drivesdk",
+     "skipped": "גדול מדי לארכיון — בדרייב"
     }
    ],
    "drive": null
@@ -4670,7 +4673,8 @@
      "size": "14.6MB",
      "type": "image/jpeg",
      "path": "",
-     "skipped": "גדול מדי לארכיון"
+     "url": "https://drive.google.com/file/d/1pH3LsiTOHVP_sV-0KCnv4i71xwviPD_0/view?usp=drivesdk",
+     "skipped": "גדול מדי לארכיון — בדרייב"
     }
    ],
    "drive": null
@@ -4688,7 +4692,8 @@
      "size": "17.4MB",
      "type": "image/jpeg",
      "path": "",
-     "skipped": "גדול מדי לארכיון"
+     "url": "https://drive.google.com/file/d/19wANrZBCOZ3iSAO3i57Lcqg_Etfz28Y9/view?usp=drivesdk",
+     "skipped": "גדול מדי לארכיון — בדרייב"
     }
    ],
    "drive": null
@@ -4706,7 +4711,8 @@
      "size": "16.9MB",
      "type": "image/jpeg",
      "path": "",
-     "skipped": "גדול מדי לארכיון"
+     "url": "https://drive.google.com/file/d/15aSUsQ5thHjZnEdcd3MuVAZV9QGv12-k/view?usp=drivesdk",
+     "skipped": "גדול מדי לארכיון — בדרייב"
     }
    ],
    "drive": null
@@ -4724,7 +4730,8 @@
      "size": "17.7MB",
      "type": "image/jpeg",
      "path": "",
-     "skipped": "גדול מדי לארכיון"
+     "url": "https://drive.google.com/file/d/1I5GZw-4PwpWD2F94xe6Q4m_PPXdFle_o/view?usp=drivesdk",
+     "skipped": "גדול מדי לארכיון — בדרייב"
     }
    ],
    "drive": null
@@ -4742,7 +4749,8 @@
      "size": "15.4MB",
      "type": "image/jpeg",
      "path": "",
-     "skipped": "גדול מדי לארכיון"
+     "url": "https://drive.google.com/file/d/1pxhLtoZgm5XZ_npDxwO44zyxuC3sKGV-/view?usp=drivesdk",
+     "skipped": "גדול מדי לארכיון — בדרייב"
     }
    ],
    "drive": null
@@ -4760,7 +4768,8 @@
      "size": "17.4MB",
      "type": "image/jpeg",
      "path": "",
-     "skipped": "גדול מדי לארכיון"
+     "url": "https://drive.google.com/file/d/1udXU7trxfMU3nVs8nqd-gJv8IGOOc7NX/view?usp=drivesdk",
+     "skipped": "גדול מדי לארכיון — בדרייב"
     }
    ],
    "drive": null
@@ -4778,7 +4787,8 @@
      "size": "14.9MB",
      "type": "image/jpeg",
      "path": "",
-     "skipped": "גדול מדי לארכיון"
+     "url": "https://drive.google.com/file/d/1mEL3SJkk-7MmC9YZGrZDG5cHAdyQr7kv/view?usp=drivesdk",
+     "skipped": "גדול מדי לארכיון — בדרייב"
     }
    ],
    "drive": null
@@ -4810,7 +4820,8 @@
      "size": "17.2MB",
      "type": "image/jpeg",
      "path": "",
-     "skipped": "גדול מדי לארכיון"
+     "url": "https://drive.google.com/file/d/1mLEWa8hW35u237ZbOOzopfwNmbXi7XgU/view?usp=drivesdk",
+     "skipped": "גדול מדי לארכיון — בדרייב"
     }
    ],
    "drive": null
@@ -4828,7 +4839,8 @@
      "size": "16.0MB",
      "type": "image/jpeg",
      "path": "",
-     "skipped": "גדול מדי לארכיון"
+     "url": "https://drive.google.com/file/d/1h5NeB_L6uqYeWz6ekCVeWqt6NZmfpS-f/view?usp=drivesdk",
+     "skipped": "גדול מדי לארכיון — בדרייב"
     }
    ],
    "drive": null
@@ -4846,7 +4858,8 @@
      "size": "17.2MB",
      "type": "image/jpeg",
      "path": "",
-     "skipped": "גדול מדי לארכיון"
+     "url": "https://drive.google.com/file/d/1665DOOgY-2YHofu4jRYH57BKaPshl0r_/view?usp=drivesdk",
+     "skipped": "גדול מדי לארכיון — בדרייב"
     }
    ],
    "drive": null
@@ -4918,6 +4931,7 @@
      "size": "392KB",
      "type": "image/jpeg",
      "path": "media/2026-09/1a0bb2a06edd794d_1.jpg",
+     "url": "",
      "skipped": ""
     }
    ],
@@ -4936,6 +4950,7 @@
      "size": "74KB",
      "type": "image/jpeg",
      "path": "media/2026-09/1a0bb2a059890d0a_1.jpg",
+     "url": "",
      "skipped": ""
     }
    ],
