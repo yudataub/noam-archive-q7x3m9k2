@@ -1,7 +1,7 @@
 {
  "month": "2026-09",
  "group": "משפחת נעם תשפ״ז",
- "updated": "2026-09-21T19:33:52.515Z",
+ "updated": "2026-09-21T19:34:16.967Z",
  "messages": [
   {
    "id": "1a05b0fd61a0e542",
@@ -3180,6 +3180,7 @@
      "size": "83KB",
      "type": "image/jpeg",
      "path": "media/2026-09/1a08a15a77788b05_1.jpg",
+     "url": "",
      "skipped": ""
     }
    ],
@@ -3208,6 +3209,7 @@
      "size": "13KB",
      "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
      "path": "media/2026-09/1a08a2e46e769079_1.docx",
+     "url": "",
      "skipped": ""
     }
    ],
@@ -3236,6 +3238,7 @@
      "size": "37KB",
      "type": "application/pdf",
      "path": "media/2026-09/1a08b8f85bfbf79e_1.pdf",
+     "url": "",
      "skipped": ""
     }
    ],
@@ -3264,6 +3267,7 @@
      "size": "37KB",
      "type": "application/pdf",
      "path": "media/2026-09/1a08bc66e0de5974_1.pdf",
+     "url": "",
      "skipped": ""
     }
    ],
@@ -3302,132 +3306,7 @@
      "size": "521KB",
      "type": "image/jpeg",
      "path": "media/2026-09/1a08c780fa11916a_1.jpg",
-     "skipped": ""
-    }
-   ],
-   "drive": null
-  },
-  {
-   "id": "1a08c7d69504703b",
-   "sender": "המורה הילה שמר",
-   "text": "[תמונה]",
-   "ts": 1789063414000,
-   "date": "2026-09-10",
-   "time": "21:03",
-   "files": [
-    {
-     "name": "תמונה.jpg",
-     "size": "141KB",
-     "type": "image/jpeg",
-     "path": "media/2026-09/1a08c7d69504703b_1.jpg",
-     "skipped": ""
-    }
-   ],
-   "drive": null
-  },
-  {
-   "id": "1a08c7d671a79f02",
-   "sender": "המורה הילה שמר",
-   "text": "[תמונה]",
-   "ts": 1789063414000,
-   "date": "2026-09-10",
-   "time": "21:03",
-   "files": [
-    {
-     "name": "תמונה.jpg",
-     "size": "177KB",
-     "type": "image/jpeg",
-     "path": "media/2026-09/1a08c7d671a79f02_1.jpg",
-     "skipped": ""
-    }
-   ],
-   "drive": null
-  },
-  {
-   "id": "1a08c7d65dfb9b7c",
-   "sender": "המורה הילה שמר",
-   "text": "[תמונה]",
-   "ts": 1789063414000,
-   "date": "2026-09-10",
-   "time": "21:03",
-   "files": [
-    {
-     "name": "תמונה.jpg",
-     "size": "299KB",
-     "type": "image/jpeg",
-     "path": "media/2026-09/1a08c7d65dfb9b7c_1.jpg",
-     "skipped": ""
-    }
-   ],
-   "drive": null
-  },
-  {
-   "id": "1a08c7d652e39fc8",
-   "sender": "המורה הילה שמר",
-   "text": "[תמונה]",
-   "ts": 1789063414000,
-   "date": "2026-09-10",
-   "time": "21:03",
-   "files": [
-    {
-     "name": "תמונה.jpg",
-     "size": "343KB",
-     "type": "image/jpeg",
-     "path": "media/2026-09/1a08c7d652e39fc8_1.jpg",
-     "skipped": ""
-    }
-   ],
-   "drive": null
-  },
-  {
-   "id": "1a08c7d61c118fef",
-   "sender": "המורה הילה שמר",
-   "text": "[תמונה]",
-   "ts": 1789063414000,
-   "date": "2026-09-10",
-   "time": "21:03",
-   "files": [
-    {
-     "name": "תמונה.jpg",
-     "size": "202KB",
-     "type": "image/jpeg",
-     "path": "media/2026-09/1a08c7d61c118fef_1.jpg",
-     "skipped": ""
-    }
-   ],
-   "drive": null
-  },
-  {
-   "id": "1a08c7d5f21df637",
-   "sender": "המורה הילה שמר",
-   "text": "[תמונה]",
-   "ts": 1789063414000,
-   "date": "2026-09-10",
-   "time": "21:03",
-   "files": [
-    {
-     "name": "תמונה.jpg",
-     "size": "225KB",
-     "type": "image/jpeg",
-     "path": "media/2026-09/1a08c7d5f21df637_1.jpg",
-     "skipped": ""
-    }
-   ],
-   "drive": null
-  },
-  {
-   "id": "1a08c7d5d9fbb9b8",
-   "sender": "המורה הילה שמר",
-   "text": "[תמונה]",
-   "ts": 1789063414000,
-   "date": "2026-09-10",
-   "time": "21:03",
-   "files": [
-    {
-     "name": "תמונה.jpg",
-     "size": "200KB",
-     "type": "image/jpeg",
-     "path": "media/2026-09/1a08c7d5d9fbb9b8_1.jpg",
+     "url": "",
      "skipped": ""
     }
    ],
@@ -3448,6 +3327,139 @@
      "path": "",
      "url": "https://drive.google.com/file/d/1TdVnywm7pnlD06WuvRt8i0hWuV64A0T5/view?usp=drivesdk",
      "skipped": "גדול מדי לארכיון — בדרייב"
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a08c7d69504703b",
+   "sender": "המורה הילה שמר",
+   "text": "[תמונה]",
+   "ts": 1789063414000,
+   "date": "2026-09-10",
+   "time": "21:03",
+   "files": [
+    {
+     "name": "תמונה.jpg",
+     "size": "141KB",
+     "type": "image/jpeg",
+     "path": "media/2026-09/1a08c7d69504703b_1.jpg",
+     "url": "",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a08c7d671a79f02",
+   "sender": "המורה הילה שמר",
+   "text": "[תמונה]",
+   "ts": 1789063414000,
+   "date": "2026-09-10",
+   "time": "21:03",
+   "files": [
+    {
+     "name": "תמונה.jpg",
+     "size": "177KB",
+     "type": "image/jpeg",
+     "path": "media/2026-09/1a08c7d671a79f02_1.jpg",
+     "url": "",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a08c7d65dfb9b7c",
+   "sender": "המורה הילה שמר",
+   "text": "[תמונה]",
+   "ts": 1789063414000,
+   "date": "2026-09-10",
+   "time": "21:03",
+   "files": [
+    {
+     "name": "תמונה.jpg",
+     "size": "299KB",
+     "type": "image/jpeg",
+     "path": "media/2026-09/1a08c7d65dfb9b7c_1.jpg",
+     "url": "",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a08c7d652e39fc8",
+   "sender": "המורה הילה שמר",
+   "text": "[תמונה]",
+   "ts": 1789063414000,
+   "date": "2026-09-10",
+   "time": "21:03",
+   "files": [
+    {
+     "name": "תמונה.jpg",
+     "size": "343KB",
+     "type": "image/jpeg",
+     "path": "media/2026-09/1a08c7d652e39fc8_1.jpg",
+     "url": "",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a08c7d61c118fef",
+   "sender": "המורה הילה שמר",
+   "text": "[תמונה]",
+   "ts": 1789063414000,
+   "date": "2026-09-10",
+   "time": "21:03",
+   "files": [
+    {
+     "name": "תמונה.jpg",
+     "size": "202KB",
+     "type": "image/jpeg",
+     "path": "media/2026-09/1a08c7d61c118fef_1.jpg",
+     "url": "",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a08c7d5f21df637",
+   "sender": "המורה הילה שמר",
+   "text": "[תמונה]",
+   "ts": 1789063414000,
+   "date": "2026-09-10",
+   "time": "21:03",
+   "files": [
+    {
+     "name": "תמונה.jpg",
+     "size": "225KB",
+     "type": "image/jpeg",
+     "path": "media/2026-09/1a08c7d5f21df637_1.jpg",
+     "url": "",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a08c7d5d9fbb9b8",
+   "sender": "המורה הילה שמר",
+   "text": "[תמונה]",
+   "ts": 1789063414000,
+   "date": "2026-09-10",
+   "time": "21:03",
+   "files": [
+    {
+     "name": "תמונה.jpg",
+     "size": "200KB",
+     "type": "image/jpeg",
+     "path": "media/2026-09/1a08c7d5d9fbb9b8_1.jpg",
+     "url": "",
+     "skipped": ""
     }
    ],
    "drive": null
