@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- noam-archive-generated v6 -->
+<!-- noam-archive-generated v7 -->
 <html lang="he" dir="rtl">
 <head>
 <meta charset="utf-8">
@@ -65,6 +65,10 @@ cursor:pointer;display:flex;justify-content:space-between;gap:8px;}
 #more{display:block;width:100%;margin:20px 0 40px;padding:12px;font-size:15px;
 font-family:inherit;background:var(--panel);color:var(--ink);
 border:1px solid var(--line);border-radius:10px;cursor:pointer;}
+.del{background:none;border:0;color:var(--muted);cursor:pointer;
+font-size:13px;line-height:1;padding:2px 4px;opacity:.35;margin-inline-start:6px;}
+.del:hover{opacity:1;color:#c0392b;}
+.msg:hover .del{opacity:.75;}
 #status{text-align:center;color:var(--muted);padding:20px;font-size:14px;}
 </style>
 </head>
@@ -81,6 +85,7 @@ border:1px solid var(--line);border-radius:10px;cursor:pointer;}
 <button id="more" hidden>טען הודעות ישנות יותר</button>
 <div id="status">טוען…</div></main>
 <script>
+var DELURL="https://script.google.com/macros/s/AKfycbywxKrMfM1pMURY56tO8uO7umcvNAzLM4hzdYx0SggivXVhpozyz0D6YttNFHkwRfQl/exec";
 var months=[],loaded=[],all=[],filter="";
 var feed=document.getElementById("feed"),more=document.getElementById("more");
 var statusEl=document.getElementById("status"),sub=document.getElementById("sub");
@@ -124,12 +129,16 @@ function render(){
  list.forEach(function(m){
   if(m.date!==lastDay){lastDay=m.date;
    html+='<div class="day"><span>'+esc(m.date)+"</span></div>";}
-  html+='<div class="msg"><div class="who">'+esc(m.sender)+"</div>";
+  html+='<div class="msg" data-id="'+esc(m.id||"")+'" data-mo="'+
+   esc(String(m.date||"").slice(0,7))+'">';
+  html+='<div class="who">'+esc(m.sender)+"</div>";
   if(m.text)html+='<div class="txt">'+linkify(esc(m.text))+"</div>";
   var f=(m.files||[]).map(fileHtml);
   if(m.drive&&m.drive.url)f.push(driveHtml(m.drive));
   if(f.length)html+='<div class="files">'+f.join("")+"</div>";
-  html+='<div class="when">'+esc(m.time)+"</div></div>";});
+  html+='<div class="when">'+esc(m.time)+
+   (DELURL&&m.id?' <button class="del" title="מחיקת ההודעה">&#10005;</button>':"")+
+   "</div></div>";});
  feed.innerHTML=html;
  [].forEach.call(feed.querySelectorAll(".day"),function(el){
   el.id="d-"+el.textContent.trim();});
@@ -196,6 +205,26 @@ function loadMonth(m){return fetch("data/"+m+".json?t="+Date.now())
  .then(function(d){all=all.concat(d.messages||[]);loaded.push(m);});}
 document.getElementById("search").addEventListener("input",function(e){
  filter=e.target.value.trim();render();});
+feed.addEventListener("click",function(e){
+ var b=e.target.closest?e.target.closest(".del"):null;
+ if(!b||!DELURL)return;
+ var box=b.closest(".msg");
+ var id=box.getAttribute("data-id"),mo=box.getAttribute("data-mo");
+ if(!id||!mo)return;
+ if(!confirm("למחוק את ההודעה הזאת מהארכיון? המחיקה היא לצמיתות, לכל מי שנכנס לדף."))return;
+ var code=prompt("קוד מחיקה:");
+ if(!code)return;
+ b.disabled=true;b.textContent="…";
+ fetch(DELURL,{method:"POST",
+  headers:{"Content-Type":"text/plain;charset=utf-8"},
+  body:JSON.stringify({code:code,id:id,month:mo})})
+  .then(function(r){return r.json();})
+  .then(function(d){
+   if(d&&d.ok){all=all.filter(function(m){return m.id!==id;});render();}
+   else{alert((d&&d.error)||"המחיקה נכשלה.");
+    b.disabled=false;b.innerHTML="&#10005;";}})
+  .catch(function(){alert("לא ניתן היה ליצור קשר עם שרת המחיקה.");
+   b.disabled=false;b.innerHTML="&#10005;";});});
 more.addEventListener("click",function(){
  var next=months[months.length-1-loaded.length];
  if(!next)return;more.disabled=true;
