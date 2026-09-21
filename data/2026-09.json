@@ -1,7 +1,7 @@
 {
  "month": "2026-09",
  "group": "משפחת נעם תשפ״ז",
- "updated": "2026-09-21T19:33:27.536Z",
+ "updated": "2026-09-21T19:33:52.515Z",
  "messages": [
   {
    "id": "1a05b0fd61a0e542",
@@ -3308,24 +3308,6 @@
    "drive": null
   },
   {
-   "id": "1a08c7d6edfd7a8c",
-   "sender": "המורה הילה שמר",
-   "text": "[וידאו]",
-   "ts": 1789063414000,
-   "date": "2026-09-10",
-   "time": "21:03",
-   "files": [
-    {
-     "name": "וידאו.mp4",
-     "size": "3.6MB",
-     "type": "video/mp4",
-     "path": "",
-     "skipped": "גדול מדי לארכיון"
-    }
-   ],
-   "drive": null
-  },
-  {
    "id": "1a08c7d69504703b",
    "sender": "המורה הילה שמר",
    "text": "[תמונה]",
@@ -3452,6 +3434,25 @@
    "drive": null
   },
   {
+   "id": "1a08c7d6edfd7a8c",
+   "sender": "המורה הילה שמר",
+   "text": "[וידאו]",
+   "ts": 1789063414000,
+   "date": "2026-09-10",
+   "time": "21:03",
+   "files": [
+    {
+     "name": "וידאו.mp4",
+     "size": "3.6MB",
+     "type": "video/mp4",
+     "path": "",
+     "url": "https://drive.google.com/file/d/1TdVnywm7pnlD06WuvRt8i0hWuV64A0T5/view?usp=drivesdk",
+     "skipped": "גדול מדי לארכיון — בדרייב"
+    }
+   ],
+   "drive": null
+  },
+  {
    "id": "1a08c7d6e9ad7a52",
    "sender": "המורה הילה שמר",
    "text": "[תמונה]",
@@ -3464,6 +3465,7 @@
      "size": "132KB",
      "type": "image/jpeg",
      "path": "media/2026-09/1a08c7d6e9ad7a52_1.jpg",
+     "url": "",
      "skipped": ""
     }
    ],
@@ -3482,7 +3484,8 @@
      "size": "6.2MB",
      "type": "video/mp4",
      "path": "",
-     "skipped": "גדול מדי לארכיון"
+     "url": "https://drive.google.com/file/d/1d1bypZ1ned73ULrDMKALYYJCsryBikqo/view?usp=drivesdk",
+     "skipped": "גדול מדי לארכיון — בדרייב"
     }
    ],
    "drive": null
@@ -3524,7 +3527,16 @@
    "ts": 1789120922000,
    "date": "2026-09-11",
    "time": "13:02",
-   "files": [],
+   "files": [
+    {
+     "name": "מדבקה.webp",
+     "size": "412KB",
+     "type": "image/webp",
+     "path": "media/2026-09/1a08feadb72492d5_1.webp",
+     "url": "",
+     "skipped": ""
+    }
+   ],
    "drive": null
   },
   {
@@ -3544,7 +3556,16 @@
    "ts": 1789136821000,
    "date": "2026-09-11",
    "time": "17:27",
-   "files": [],
+   "files": [
+    {
+     "name": "מדבקה.webp",
+     "size": "257KB",
+     "type": "image/webp",
+     "path": "media/2026-09/1a090dd74ff491a2_1.webp",
+     "url": "",
+     "skipped": ""
+    }
+   ],
    "drive": null
   },
   {
@@ -3560,6 +3581,7 @@
      "size": "433KB",
      "type": "image/jpeg",
      "path": "media/2026-09/1a09c0b9eb66c31f_1.jpg",
+     "url": "",
      "skipped": ""
     }
    ],
@@ -3598,6 +3620,7 @@
      "size": "86KB",
      "type": "image/jpeg",
      "path": "media/2026-09/1a09ea40e2e2360b_1.jpg",
+     "url": "",
      "skipped": ""
     }
    ],
@@ -3616,6 +3639,7 @@
      "size": "2.5MB",
      "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
      "path": "media/2026-09/1a09eea2b3bcb91b_1.docx",
+     "url": "",
      "skipped": ""
     }
    ],
@@ -3644,6 +3668,7 @@
      "size": "9KB",
      "type": "image/jpeg",
      "path": "media/2026-09/1a09f7d9ccd1377e_1.jpg",
+     "url": "",
      "skipped": ""
     }
    ],
@@ -3662,6 +3687,7 @@
      "size": "2.5MB",
      "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
      "path": "media/2026-09/1a09fc827afe763e_1.docx",
+     "url": "",
      "skipped": ""
     }
    ],
