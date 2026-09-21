@@ -1,7 +1,7 @@
 {
  "month": "2026-09",
  "group": "משפחת נעם תשפ״ז",
- "updated": "2026-09-21T19:32:05.914Z",
+ "updated": "2026-09-21T19:32:24.623Z",
  "messages": [
   {
    "id": "1a05b0fd61a0e542",
@@ -4398,6 +4398,7 @@
      "size": "198KB",
      "type": "image/jpeg",
      "path": "media/2026-09/1a0af4c39822f901_1.jpg",
+     "url": "",
      "skipped": ""
     }
    ],
@@ -4426,6 +4427,7 @@
      "size": "180KB",
      "type": "image/jpeg",
      "path": "media/2026-09/1a0b0078f4636406_1.jpg",
+     "url": "",
      "skipped": ""
     }
    ],
@@ -4454,6 +4456,7 @@
      "size": "73KB",
      "type": "application/pdf",
      "path": "media/2026-09/1a0b020430bfc758_1.pdf",
+     "url": "",
      "skipped": ""
     }
    ],
@@ -4482,6 +4485,7 @@
      "size": "91KB",
      "type": "image/jpeg",
      "path": "media/2026-09/1a0b034a5420231a_1.jpg",
+     "url": "",
      "skipped": ""
     }
    ],
@@ -4560,6 +4564,7 @@
      "size": "67KB",
      "type": "image/jpeg",
      "path": "media/2026-09/1a0b2f99c53c058b_1.jpg",
+     "url": "",
      "skipped": ""
     }
    ],
@@ -4567,27 +4572,13 @@
   },
   {
    "id": "1a0b2fc80997d3a9",
-   "sender": "המורה נשואה למלך ואמא לנסיכים",
+   "sender": "המורה רחל תהילה",
    "text": "הורים יקרים, בוקר טוב\n\nאין לשלוח שעונים חכמים לבית הספר בשום פנים ואופן.\n\nתודה על ההבנה.",
    "ts": 1789709280000,
    "date": "2026-09-18",
    "time": "08:28",
    "files": [],
    "drive": null
-  },
-  {
-   "id": "1a0b3a1ddcc61ba5",
-   "sender": "המנהלת אורלי אוחנה",
-   "text": "[מסמך]",
-   "ts": 1789720116000,
-   "date": "2026-09-18",
-   "time": "11:28",
-   "files": [],
-   "drive": {
-    "name": "ה1.jpg",
-    "size": "18.2MB",
-    "url": "https://drive.google.com/file/d/14DtEKEz1f3DxbWU8XOuw0HV454kpw7cV/view?usp=drivesdk"
-   }
   },
   {
    "id": "1a0b3a1fcd9df39c",
@@ -4607,6 +4598,20 @@
     }
    ],
    "drive": null
+  },
+  {
+   "id": "1a0b3a1ddcc61ba5",
+   "sender": "המנהלת אורלי אוחנה",
+   "text": "[מסמך]",
+   "ts": 1789720116000,
+   "date": "2026-09-18",
+   "time": "11:28",
+   "files": [],
+   "drive": {
+    "name": "ה1.jpg",
+    "size": "18.2MB",
+    "url": "https://drive.google.com/file/d/14DtEKEz1f3DxbWU8XOuw0HV454kpw7cV/view?usp=drivesdk"
+   }
   },
   {
    "id": "1a0b3a20d4cf09c8",
