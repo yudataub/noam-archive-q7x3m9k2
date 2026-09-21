@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- noam-archive-generated v3 -->
+<!-- noam-archive-generated v4 -->
 <html lang="he" dir="rtl">
 <head>
 <meta charset="utf-8">
@@ -56,6 +56,11 @@ border-radius:6px;padding:6px 10px;font-size:14px;font-family:inherit;
 cursor:pointer;display:flex;justify-content:space-between;gap:8px;}
 .nav-day:hover{background:var(--bubble);}
 .nav-n{color:var(--muted);font-size:12px;}
+@media (min-width:900px){#navbtn{display:none;}
+ #navwrap{display:block;position:static;}#navback{display:none;}
+ #nav{position:fixed;top:0;bottom:0;right:0;width:260px;
+ border-left:1px solid var(--line);}
+ body{padding-right:260px;}}
 #more{display:block;width:100%;margin:20px 0 40px;padding:12px;font-size:15px;
 font-family:inherit;background:var(--panel);color:var(--ink);
 border:1px solid var(--line);border-radius:10px;cursor:pointer;}
@@ -80,6 +85,7 @@ var feed=document.getElementById("feed"),more=document.getElementById("more");
 var statusEl=document.getElementById("status"),sub=document.getElementById("sub");
 var navWrap=document.getElementById("navwrap");
 var navList=document.getElementById("navlist");
+var firstRender=true;
 function esc(s){return String(s).replace(/[&<>"]/g,function(c){
 return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c];});}
 function isImage(f){return /^image\//.test(f.type||"");}
@@ -122,7 +128,10 @@ function render(){
  statusEl.textContent=list.length?"":(filter?"אין תוצאות.":"אין עדיין הודעות.");
  sub.textContent=all.length+" הודעות · "+loaded.length+" מתוך "+months.length+" חודשים";
  more.hidden=loaded.length>=months.length;
- buildNav();}
+ buildNav();
+ if(firstRender&&!filter&&list.length){firstRender=false;
+  setTimeout(function(){
+   window.scrollTo(0,document.documentElement.scrollHeight);},60);}}
 function buildNav(){
  var byDate={};
  all.forEach(function(m){byDate[m.date]=(byDate[m.date]||0)+1;});
@@ -157,7 +166,7 @@ navList.addEventListener("click",function(e){
  var t=e.target;
  var mb=t.closest?t.closest(".nav-mo-btn"):null;
  if(mb){var k=mb.getAttribute("data-mo");
-  if(loaded.indexOf(k)<0){mb.disabled=true;loadMonth(k).then(function(){render();});}
+  if(loaded.indexOf(k)<0){mb.disabled=true;loadOlder(k);}
   return;}
  var db=t.closest?t.closest(".nav-day"):null;
  if(db){var el=document.getElementById("d-"+db.getAttribute("data-d"));
@@ -165,6 +174,12 @@ navList.addEventListener("click",function(e){
    var hh=document.querySelector("header").offsetHeight+8;
    var y=el.getBoundingClientRect().top+window.pageYOffset-hh;
    window.scrollTo({top:y<0?0:y,behavior:"smooth"});}}});
+function loadOlder(mo,done){
+ var h0=document.documentElement.scrollHeight,y0=window.pageYOffset;
+ loadMonth(mo).then(function(){render();
+  var h1=document.documentElement.scrollHeight;
+  window.scrollTo(0,y0+(h1-h0));
+  if(done)done();});}
 function loadMonth(m){return fetch("data/"+m+".json?t="+Date.now())
  .then(function(r){return r.ok?r.json():{messages:[]};})
  .then(function(d){all=all.concat(d.messages||[]);loaded.push(m);});}
@@ -173,7 +188,7 @@ document.getElementById("search").addEventListener("input",function(e){
 more.addEventListener("click",function(){
  var next=months[months.length-1-loaded.length];
  if(!next)return;more.disabled=true;
- loadMonth(next).then(function(){more.disabled=false;render();});});
+ loadOlder(next,function(){more.disabled=false;});});
 fetch("data/index.json?t="+Date.now()).then(function(r){
  if(!r.ok)throw new Error("אין עדיין נתונים");return r.json();})
  .then(function(d){months=(d.months||[]).sort();
