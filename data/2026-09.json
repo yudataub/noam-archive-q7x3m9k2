@@ -1,7 +1,7 @@
 {
  "month": "2026-09",
  "group": "משפחת נעם תשפ״ז",
- "updated": "2026-09-21T19:37:19.398Z",
+ "updated": "2026-09-21T19:37:40.869Z",
  "messages": [
   {
    "id": "1a05b0fd61a0e542",
@@ -1756,6 +1756,7 @@
      "size": "68KB",
      "type": "image/jpeg",
      "path": "media/2026-09/1a0771208a629903_1.jpg",
+     "url": "",
      "skipped": ""
     }
    ],
@@ -1792,6 +1793,7 @@
      "size": "937KB",
      "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
      "path": "media/2026-09/1a07728535185e08_1.docx",
+     "url": "",
      "skipped": ""
     }
    ],
@@ -1810,7 +1812,8 @@
      "size": "3.9MB",
      "type": "application/pdf",
      "path": "",
-     "skipped": "גדול מדי לארכיון"
+     "url": "https://drive.google.com/file/d/1FrHk6SWoV9ySn2sz7ldAdOBLFbfKRqVc/view?usp=drivesdk",
+     "skipped": "גדול מדי לארכיון — בדרייב"
     }
    ],
    "drive": null
@@ -1828,6 +1831,7 @@
      "size": "2.0MB",
      "type": "application/pdf",
      "path": "media/2026-09/1a0776e793d2a54f_1.pdf",
+     "url": "",
      "skipped": ""
     }
    ],
@@ -1846,6 +1850,7 @@
      "size": "675KB",
      "type": "application/pdf",
      "path": "media/2026-09/1a0776e740770def_1.pdf",
+     "url": "",
      "skipped": ""
     }
    ],
@@ -1864,6 +1869,7 @@
      "size": "1.2MB",
      "type": "application/pdf",
      "path": "media/2026-09/1a0776e7858da826_1.pdf",
+     "url": "",
      "skipped": ""
     }
    ],
@@ -1906,7 +1912,16 @@
    "ts": 1788716869000,
    "date": "2026-09-06",
    "time": "20:47",
-   "files": [],
+   "files": [
+    {
+     "name": "מדבקה.webp",
+     "size": "44KB",
+     "type": "image/webp",
+     "path": "media/2026-09/1a077d57b382d6f2_1.webp",
+     "url": "",
+     "skipped": ""
+    }
+   ],
    "drive": null
   },
   {
@@ -1946,7 +1961,16 @@
    "ts": 1788717698000,
    "date": "2026-09-06",
    "time": "21:01",
-   "files": [],
+   "files": [
+    {
+     "name": "מדבקה.webp",
+     "size": "485KB",
+     "type": "image/webp",
+     "path": "media/2026-09/1a077e225209eb43_1.webp",
+     "url": "",
+     "skipped": ""
+    }
+   ],
    "drive": null
   },
   {
@@ -1966,7 +1990,16 @@
    "ts": 1788720323000,
    "date": "2026-09-06",
    "time": "21:45",
-   "files": [],
+   "files": [
+    {
+     "name": "מדבקה.webp",
+     "size": "228KB",
+     "type": "image/webp",
+     "path": "media/2026-09/1a0780a32378ba18_1.webp",
+     "url": "",
+     "skipped": ""
+    }
+   ],
    "drive": null
   },
   {
@@ -1976,7 +2009,16 @@
    "ts": 1788720326000,
    "date": "2026-09-06",
    "time": "21:45",
-   "files": [],
+   "files": [
+    {
+     "name": "מדבקה.webp",
+     "size": "120KB",
+     "type": "image/webp",
+     "path": "media/2026-09/1a0780a407cec3c6_1.webp",
+     "url": "",
+     "skipped": ""
+    }
+   ],
    "drive": null
   },
   {
@@ -1992,6 +2034,7 @@
      "size": "242KB",
      "type": "image/jpeg",
      "path": "media/2026-09/1a0780acd6bd2f76_1.jpg",
+     "url": "",
      "skipped": ""
     }
    ],
