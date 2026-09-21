@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- noam-archive-generated v4 -->
+<!-- noam-archive-generated v5 -->
 <html lang="he" dir="rtl">
 <head>
 <meta charset="utf-8">
@@ -34,6 +34,7 @@ padding:10px 12px;margin:8px 0;box-shadow:0 1px 2px rgba(0,0,0,.05);}
 border-radius:8px;padding:6px 10px;font-size:13px;text-decoration:none;color:var(--ink);}
 .file.dead{opacity:.6;}
 .embed{flex:1 1 100%;}
+.embed img{width:100%;border-radius:8px;display:block;}
 .embed iframe{width:100%;aspect-ratio:16/10;border:1px solid var(--line);
 border-radius:8px;background:#000;display:block;}
 .txt a.lnk{color:var(--accent);word-break:break-all;}
@@ -100,12 +101,19 @@ function fileHtml(f){
   '<img loading="lazy" src="'+encodeURI(f.path)+'" alt="'+esc(f.name)+'"></a>';
  return '<a class="file" href="'+encodeURI(f.path)+'" target="_blank">'+
   esc(f.name)+" ("+esc(f.size)+")</a>";}
+function driveThumb(id){
+ return "https://drive.google.com/thumbnail?id="+id+"&amp;sz=w1200";}
+function isImageName(n){return /[.](jpe?g|png|gif|webp|bmp|heic)$/i.test(n||"");}
 function driveHtml(d){var id=driveId(d.url);
  var cap=esc(d.name)+(d.size?" ("+esc(d.size)+")":"");
- if(!id)return '<a class="file" href="'+encodeURI(d.url)+'" target="_blank">'+cap+"</a>";
- return '<div class="embed"><iframe loading="lazy" allow="autoplay" '+
-  'src="https://drive.google.com/file/d/'+id+'/preview"></iframe>'+
-  '<a class="file" href="'+encodeURI(d.url)+'" target="_blank">'+cap+" — פתיחה בדרייב</a></div>";}
+ var u=encodeURI(d.url);
+ var lnk='<a class="file" href="'+u+'" target="_blank">'+cap+" — פתיחה בדרייב</a>";
+ if(!id)return '<a class="file" href="'+u+'" target="_blank">'+cap+"</a>";
+ if(isImageName(d.name)||/^image\//.test(d.type||""))
+  return '<div class="embed"><a href="'+u+'" target="_blank">'+
+   '<img loading="lazy" src="'+driveThumb(id)+'" alt=""></a>'+lnk+"</div>";
+ return '<div class="embed"><iframe loading="lazy" allow="autoplay" src="'+
+  'https://drive.google.com/file/d/'+id+'/preview"></iframe>'+lnk+"</div>";}
 function render(){
  var list=all.slice();
  if(filter){var q=filter.toLowerCase();list=list.filter(function(m){
