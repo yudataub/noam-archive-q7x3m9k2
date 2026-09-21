@@ -1,7 +1,7 @@
 {
  "month": "2026-09",
  "group": "משפחת נעם תשפ״ז",
- "updated": "2026-09-21T19:36:47.230Z",
+ "updated": "2026-09-21T19:36:57.826Z",
  "messages": [
   {
    "id": "1a05b0fd61a0e542",
@@ -2512,6 +2512,7 @@
      "size": "90KB",
      "type": "image/jpeg",
      "path": "media/2026-09/1a07f78c841475a3_1.jpg",
+     "url": "",
      "skipped": ""
     }
    ],
@@ -2644,7 +2645,16 @@
    "ts": 1788876863000,
    "date": "2026-09-08",
    "time": "17:14",
-   "files": [],
+   "files": [
+    {
+     "name": "מדבקה.webp",
+     "size": "17KB",
+     "type": "image/webp",
+     "path": "media/2026-09/1a0815ecfcd99dee_1.webp",
+     "url": "",
+     "skipped": ""
+    }
+   ],
    "drive": null
   },
   {
