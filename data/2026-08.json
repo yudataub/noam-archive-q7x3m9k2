@@ -1,7 +1,7 @@
 {
  "month": "2026-08",
  "group": "משפחת נעם תשפ״ז",
- "updated": "2026-09-21T19:46:33.716Z",
+ "updated": "2026-09-21T19:46:38.628Z",
  "messages": [
   {
    "id": "1a0525a3029afc81",
@@ -16,6 +16,7 @@
      "size": "138KB",
      "type": "image/jpeg",
      "path": "media/2026-08/1a0525a3029afc81_1.jpg",
+     "url": "",
      "skipped": ""
     }
    ],
@@ -74,6 +75,7 @@
      "size": "164KB",
      "type": "application/pdf",
      "path": "media/2026-08/1a053367ad2abd1e_1.pdf",
+     "url": "",
      "skipped": ""
     }
    ],
