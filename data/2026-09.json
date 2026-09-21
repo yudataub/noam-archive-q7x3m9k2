@@ -1,7 +1,7 @@
 {
  "month": "2026-09",
  "group": "משפחת נעם תשפ״ז",
- "updated": "2026-09-21T19:37:40.869Z",
+ "updated": "2026-09-21T19:37:54.649Z",
  "messages": [
   {
    "id": "1a05b0fd61a0e542",
@@ -1500,7 +1500,8 @@
      "size": "3.9MB",
      "type": "application/pdf",
      "path": "",
-     "skipped": "גדול מדי לארכיון"
+     "url": "https://drive.google.com/file/d/1obX1qW-XZAAJTZY83yMBRm6Zyof1OBhI/view?usp=drivesdk",
+     "skipped": "גדול מדי לארכיון — בדרייב"
     }
    ],
    "drive": null
@@ -1518,7 +1519,8 @@
      "size": "3.9MB",
      "type": "application/pdf",
      "path": "",
-     "skipped": "גדול מדי לארכיון"
+     "url": "https://drive.google.com/file/d/1obX1qW-XZAAJTZY83yMBRm6Zyof1OBhI/view?usp=drivesdk",
+     "skipped": "גדול מדי לארכיון — בדרייב"
     }
    ],
    "drive": null
@@ -1586,6 +1588,7 @@
      "size": "930KB",
      "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
      "path": "media/2026-09/1a073490a545de1e_1.docx",
+     "url": "",
      "skipped": ""
     }
    ],
@@ -1604,6 +1607,7 @@
      "size": "14KB",
      "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
      "path": "media/2026-09/1a073490a14012b3_1.docx",
+     "url": "",
      "skipped": ""
     }
    ],
@@ -1622,6 +1626,7 @@
      "size": "62KB",
      "type": "image/jpeg",
      "path": "media/2026-09/1a0757e00b170e5f_1.jpg",
+     "url": "",
      "skipped": ""
     }
    ],
@@ -1640,6 +1645,7 @@
      "size": "62KB",
      "type": "image/jpeg",
      "path": "media/2026-09/1a0757dfc0a2d762_1.jpg",
+     "url": "",
      "skipped": ""
     }
    ],
@@ -1678,6 +1684,7 @@
      "size": "937KB",
      "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
      "path": "media/2026-09/1a076fb3de399966_1.docx",
+     "url": "",
      "skipped": ""
     }
    ],
@@ -1700,7 +1707,16 @@
    "ts": 1788702799000,
    "date": "2026-09-06",
    "time": "16:53",
-   "files": [],
+   "files": [
+    {
+     "name": "מדבקה.webp",
+     "size": "18KB",
+     "type": "image/webp",
+     "path": "media/2026-09/1a076fec8a71cc87_1.webp",
+     "url": "",
+     "skipped": ""
+    }
+   ],
    "drive": null
   },
   {
@@ -1775,6 +1791,7 @@
      "size": "115KB",
      "type": "image/jpeg",
      "path": "media/2026-09/1a07712043a8dd79_1.jpg",
+     "url": "",
      "skipped": ""
     }
    ],
