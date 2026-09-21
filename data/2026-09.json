@@ -1,7 +1,7 @@
 {
  "month": "2026-09",
  "group": "משפחת נעם תשפ״ז",
- "updated": "2026-09-21T19:31:23.153Z",
+ "updated": "2026-09-21T19:31:46.923Z",
  "messages": [
   {
    "id": "1a05b0fd61a0e542",
@@ -4984,6 +4984,7 @@
      "size": "74KB",
      "type": "image/jpeg",
      "path": "media/2026-09/1a0bb7f72d05595b_1.jpg",
+     "url": "",
      "skipped": ""
     }
    ],
@@ -5002,6 +5003,7 @@
      "size": "392KB",
      "type": "image/jpeg",
      "path": "media/2026-09/1a0bb7f74e0a4a50_1.jpg",
+     "url": "",
      "skipped": ""
     }
    ],
@@ -5032,24 +5034,6 @@
    "drive": null
   },
   {
-   "id": "1a0bd3419c41bab2",
-   "sender": "המנהלת אורלי אוחנה",
-   "text": "[תמונה]",
-   "ts": 1789880700000,
-   "date": "2026-09-20",
-   "time": "08:05",
-   "files": [
-    {
-     "name": "תמונה.jpg",
-     "size": "171KB",
-     "type": "image/jpeg",
-     "path": "media/2026-09/1a0bd3419c41bab2_1.jpg",
-     "skipped": ""
-    }
-   ],
-   "drive": null
-  },
-  {
    "id": "1a0bd34278476096",
    "sender": "המנהלת אורלי אוחנה",
    "text": "[וידאו]",
@@ -5062,6 +5046,25 @@
      "size": "2.0MB",
      "type": "video/mp4",
      "path": "media/2026-09/1a0bd34278476096_1.mp4",
+     "url": "",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a0bd3419c41bab2",
+   "sender": "המנהלת אורלי אוחנה",
+   "text": "[תמונה]",
+   "ts": 1789880700000,
+   "date": "2026-09-20",
+   "time": "08:05",
+   "files": [
+    {
+     "name": "תמונה.jpg",
+     "size": "171KB",
+     "type": "image/jpeg",
+     "path": "media/2026-09/1a0bd3419c41bab2_1.jpg",
      "url": "",
      "skipped": ""
     }
