@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- noam-archive-generated v5 -->
+<!-- noam-archive-generated v6 -->
 <html lang="he" dir="rtl">
 <head>
 <meta charset="utf-8">
@@ -181,7 +181,10 @@ navList.addEventListener("click",function(e){
   if(el){toggleNav(false);
    var hh=document.querySelector("header").offsetHeight+8;
    var y=el.getBoundingClientRect().top+window.pageYOffset-hh;
-   window.scrollTo({top:y<0?0:y,behavior:"smooth"});}}});
+   window.scrollTo(0,y<0?0:y);
+   setTimeout(function(){
+    var y2=el.getBoundingClientRect().top+window.pageYOffset-hh;
+    if(Math.abs(y2-window.pageYOffset)>4)window.scrollTo(0,y2<0?0:y2);},350);}}});
 function loadOlder(mo,done){
  var h0=document.documentElement.scrollHeight,y0=window.pageYOffset;
  loadMonth(mo).then(function(){render();
