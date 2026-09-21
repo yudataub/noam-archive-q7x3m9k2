@@ -1,7 +1,7 @@
 {
  "month": "2026-09",
  "group": "משפחת נעם תשפ״ז",
- "updated": "2026-09-21T19:36:34.261Z",
+ "updated": "2026-09-21T19:36:47.230Z",
  "messages": [
   {
    "id": "1a05b0fd61a0e542",
@@ -2714,7 +2714,16 @@
    "ts": 1788891224000,
    "date": "2026-09-08",
    "time": "21:13",
-   "files": [],
+   "files": [
+    {
+     "name": "מדבקה.webp",
+     "size": "120KB",
+     "type": "image/webp",
+     "path": "media/2026-09/1a08239f7da8b1a2_1.webp",
+     "url": "",
+     "skipped": ""
+    }
+   ],
    "drive": null
   },
   {
@@ -2764,7 +2773,16 @@
    "ts": 1788892636000,
    "date": "2026-09-08",
    "time": "21:37",
-   "files": [],
+   "files": [
+    {
+     "name": "מדבקה.webp",
+     "size": "17KB",
+     "type": "image/webp",
+     "path": "media/2026-09/1a0824f7f68692e4_1.webp",
+     "url": "",
+     "skipped": ""
+    }
+   ],
    "drive": null
   },
   {
@@ -2840,6 +2858,7 @@
      "size": "85KB",
      "type": "image/jpeg",
      "path": "media/2026-09/1a084eb6879df4f9_1.jpg",
+     "url": "",
      "skipped": ""
     }
    ],
@@ -2878,6 +2897,7 @@
      "size": "345KB",
      "type": "image/jpeg",
      "path": "media/2026-09/1a086063005bd917_1.jpg",
+     "url": "",
      "skipped": ""
     }
    ],
