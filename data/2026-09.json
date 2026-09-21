@@ -1,7 +1,7 @@
 {
  "month": "2026-09",
  "group": "משפחת נעם תשפ״ז",
- "updated": "2026-09-21T19:37:08.293Z",
+ "updated": "2026-09-21T19:37:19.398Z",
  "messages": [
   {
    "id": "1a05b0fd61a0e542",
@@ -2040,6 +2040,7 @@
      "size": "80KB",
      "type": "image/jpeg",
      "path": "media/2026-09/1a07a8b8cf1a462d_1.jpg",
+     "url": "",
      "skipped": ""
     }
    ],
@@ -2128,6 +2129,7 @@
      "size": "107KB",
      "type": "image/jpeg",
      "path": "media/2026-09/1a07b9d80e43d2bf_1.jpg",
+     "url": "",
      "skipped": ""
     }
    ],
@@ -2166,6 +2168,7 @@
      "size": "124KB",
      "type": "image/jpeg",
      "path": "media/2026-09/1a07c023cc28884c_1.jpg",
+     "url": "",
      "skipped": ""
     }
    ],
@@ -2204,6 +2207,7 @@
      "size": "914KB",
      "type": "application/pdf",
      "path": "media/2026-09/1a07c101ad618abd_1.pdf",
+     "url": "",
      "skipped": ""
     }
    ],
@@ -2232,6 +2236,7 @@
      "size": "934KB",
      "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
      "path": "media/2026-09/1a07c2c61fbd5c7c_1.docx",
+     "url": "",
      "skipped": ""
     }
    ],
