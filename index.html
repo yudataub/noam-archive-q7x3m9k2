@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- noam-archive-generated v9 -->
+<!-- noam-archive-generated v10 -->
 <html lang="he" dir="rtl">
 <head>
 <meta charset="utf-8">
@@ -42,6 +42,9 @@ border-radius:8px;padding:6px 10px;font-size:13px;text-decoration:none;color:var
 .embed img{width:100%;border-radius:8px;display:block;}
 .embed iframe{width:100%;aspect-ratio:16/10;border:1px solid var(--line);
 border-radius:8px;background:#000;display:block;}
+.embed video{width:100%;max-height:70vh;border-radius:8px;background:#000;display:block;}
+.vload{width:100%;aspect-ratio:16/9;max-height:50vh;border:0;border-radius:8px;
+background:#111;color:#fff;font:inherit;font-size:16px;cursor:pointer;display:block;}
 .txt a.lnk{color:var(--accent);word-break:break-all;}
 .hdr-row{display:flex;align-items:center;justify-content:space-between;gap:10px;}
 #navbtn{background:rgba(255,255,255,.18);color:#fff;border:0;border-radius:8px;
@@ -125,7 +128,7 @@ function linkify(t){return t.replace(/(https?:\/\/[^\s<"]+)/g,function(u){
  return '<a class="lnk" href="'+c+'" target="_blank" rel="noopener noreferrer">'+c+"</a>"+tail;});}
 function driveId(u){var m=/\/file\/d\/([A-Za-z0-9_-]+)/.exec(u||"");return m?m[1]:"";}
 function fileHtml(f){
- if(!f.path&&f.url)return driveHtml({name:f.name,size:f.size,url:f.url});
+ if(!f.path&&f.url)return driveHtml({name:f.name,size:f.size,url:f.url,mirror:f.mirror});
  if(!f.path)return '<span class="file dead">'+esc(f.name)+" — "+esc(f.skipped||"")+"</span>";
  if(isImage(f))return '<a href="'+encodeURI(f.path)+'" target="_blank">'+
   '<img loading="lazy" src="'+encodeURI(f.path)+'" alt="'+esc(f.name)+'"></a>';
@@ -138,12 +141,34 @@ function driveHtml(d){var id=driveId(d.url);
  var cap=esc(d.name)+(d.size?" ("+esc(d.size)+")":"");
  var u=encodeURI(d.url);
  var lnk='<a class="file" href="'+u+'" target="_blank">'+cap+" — פתיחה בדרייב</a>";
+ // עותק בריפו קודם לנגן של דרייב, שנכשל בהטמעה אצל רוב הצופים.
+ if(d.mirror&&d.mirror.length)return videoHtml(d.mirror,lnk);
  if(!id)return '<a class="file" href="'+u+'" target="_blank">'+cap+"</a>";
  if(isImageName(d.name)||/^image\//.test(d.type||""))
   return '<div class="embed"><a href="'+u+'" target="_blank">'+
    '<img loading="lazy" src="'+driveThumb(id)+'" alt=""></a>'+lnk+"</div>";
  return '<div class="embed"><iframe loading="lazy" allow="autoplay" src="'+
   'https://drive.google.com/file/d/'+id+'/preview"></iframe>'+lnk+"</div>";}
+// סרטון שמור בריפו. קובץ אחד מתנגן ישירות; כמה חלקים (סרטון גדול
+// שפוצל כי Apps Script לא יכול לשלוח יותר מ-50MB בבקשה) נטענים בלחיצה
+// ומחוברים בדפדפן — כך לא מורידים עשרות MB בכל כניסה לדף.
+function videoHtml(parts,lnk){
+ if(parts.length===1)return '<div class="embed"><video controls playsinline preload="metadata" src="'+
+  encodeURI(parts[0])+'"></video>'+lnk+"</div>";
+ return '<div class="embed"><button class="vload" data-parts="'+esc(parts.join("|"))+
+  '">▶ צפייה בסרטון</button>'+lnk+"</div>";}
+function loadParts(btn){if(btn.disabled)return;btn.disabled=true;
+ var parts=btn.getAttribute("data-parts").split("|"),done=0;
+ btn.textContent="טוען את הסרטון…";
+ Promise.all(parts.map(function(p){return fetch(encodeURI(p)).then(function(r){
+  if(!r.ok)throw new Error(r.status);return r.blob();}).then(function(b){
+  done++;btn.textContent="טוען את הסרטון… "+done+"/"+parts.length;return b;});}))
+ .then(function(bs){var v=document.createElement("video");
+  v.controls=true;v.playsInline=true;
+  v.src=URL.createObjectURL(new Blob(bs,{type:"video/mp4"}));
+  btn.parentNode.replaceChild(v,btn);v.play().catch(function(){});})
+ .catch(function(){btn.disabled=false;
+  btn.textContent="הטעינה נכשלה — לחצו לנסות שוב";});}
 function render(){
  var list=all.slice();
  if(senderFilter)list=list.filter(function(m){
@@ -261,6 +286,8 @@ senderSel.addEventListener("change",function(e){
 starBtn.addEventListener("click",function(){
  starFilter=!starFilter;render();});
 feed.addEventListener("click",function(e){
+ var vl=e.target.closest?e.target.closest(".vload"):null;
+ if(vl){loadParts(vl);return;}
  var sb=e.target.closest?e.target.closest(".star"):null;
  if(sb){
   var sbox=sb.closest(".msg"),sid=sbox.getAttribute("data-id");
