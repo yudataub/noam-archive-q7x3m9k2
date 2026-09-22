@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- noam-archive-generated v10 -->
+<!-- noam-archive-generated v11 -->
 <html lang="he" dir="rtl">
 <head>
 <meta charset="utf-8">
@@ -123,6 +123,8 @@ var firstRender=true;
 function esc(s){return String(s).replace(/[&<>"]/g,function(c){
 return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c];});}
 function isImage(f){return /^image\//.test(f.type||"");}
+function isVideo(f){return /^video\//.test(f.type||"")||
+ /[.](mp4|m4v|mov|webm|3gp)$/i.test(f.name||"");}
 function linkify(t){return t.replace(/(https?:\/\/[^\s<"]+)/g,function(u){
  var c=u.replace(/[.,;:!?)\]]+$/,""),tail=u.slice(c.length);
  return '<a class="lnk" href="'+c+'" target="_blank" rel="noopener noreferrer">'+c+"</a>"+tail;});}
@@ -132,8 +134,12 @@ function fileHtml(f){
  if(!f.path)return '<span class="file dead">'+esc(f.name)+" — "+esc(f.skipped||"")+"</span>";
  if(isImage(f))return '<a href="'+encodeURI(f.path)+'" target="_blank">'+
   '<img loading="lazy" src="'+encodeURI(f.path)+'" alt="'+esc(f.name)+'"></a>';
- return '<a class="file" href="'+encodeURI(f.path)+'" target="_blank">'+
-  esc(f.name)+" ("+esc(f.size)+")</a>";}
+ var lnk='<a class="file" href="'+encodeURI(f.path)+'" target="_blank">'+
+  esc(f.name)+" ("+esc(f.size)+")</a>";
+ // סרטון קטן מספיק נכנס כצרופה רגילה ויש לו path. בלי השורה הזאת הוא
+ // היה מוצג כקישור להורדה בלבד, בעוד סרטון גדול יותר דווקא מתנגן.
+ if(isVideo(f))return videoHtml([f.path],lnk);
+ return lnk;}
 function driveThumb(id){
  return "https://drive.google.com/thumbnail?id="+id+"&amp;sz=w1200";}
 function isImageName(n){return /[.](jpe?g|png|gif|webp|bmp|heic)$/i.test(n||"");}
