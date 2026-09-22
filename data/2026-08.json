@@ -361,7 +361,10 @@
      "type": "video/mp4",
      "path": "",
      "url": "https://drive.google.com/file/d/1AEJa4AT05SphsokfPUcB1jhVl397lBYV/view?usp=drivesdk",
-     "skipped": "גדול מדי לארכיון — בדרייב"
+     "skipped": "גדול מדי לארכיון — בדרייב",
+     "mirror": [
+      "media/2026-08/1a0577a62dd8d9e6_1.mp4"
+     ]
     }
    ],
    "drive": null
