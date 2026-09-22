@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- noam-archive-generated v8 -->
+<!-- noam-archive-generated v9 -->
 <html lang="he" dir="rtl">
 <head>
 <meta charset="utf-8">
@@ -8,9 +8,11 @@
 <title>ארכיון ההודעות</title>
 <style>
 :root{--bg:#e9e2d8;--panel:#fffdf8;--bubble:#ffffff;--ink:#1f2421;
+--star:#d99a06;
 --muted:#6b7280;--accent:#2f6d4f;--line:#d9d2c6;}
 @media (prefers-color-scheme:dark){:root{--bg:#10151a;--panel:#161d24;
---bubble:#1e2831;--ink:#e8edf2;--muted:#94a3b8;--accent:#5fbf8f;--line:#2b3742;}}
+--bubble:#1e2831;--ink:#e8edf2;--muted:#94a3b8;--accent:#5fbf8f;--line:#2b3742;
+--star:#f0c23c;}}
 html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);
 font-family:"Segoe UI",Arial,sans-serif;}
 header{position:sticky;top:0;z-index:5;background:var(--accent);color:#fff;
@@ -68,6 +70,16 @@ cursor:pointer;display:flex;justify-content:space-between;gap:8px;}
 #more{display:block;width:100%;margin:20px 0 40px;padding:12px;font-size:15px;
 font-family:inherit;background:var(--panel);color:var(--ink);
 border:1px solid var(--line);border-radius:10px;cursor:pointer;}
+.star{background:none;border:0;color:var(--muted);cursor:pointer;
+font-size:15px;line-height:1;padding:2px 4px;opacity:.3;margin-inline-start:6px;}
+.star:hover{opacity:1;}
+.msg:hover .star{opacity:.7;}
+.msg.starred{border-color:var(--star);box-shadow:0 0 0 1px var(--star) inset;}
+.star.on,.msg.starred .star{opacity:1;color:var(--star);}
+#onlystar{margin-top:8px;width:100%;box-sizing:border-box;padding:7px 10px;
+border:0;border-radius:8px;font-size:14px;font-family:inherit;cursor:pointer;
+background:rgba(255,255,255,.18);color:#fff;}
+#onlystar.on{background:var(--star);color:#1f2421;font-weight:600;}
 .del{background:none;border:0;color:var(--muted);cursor:pointer;
 font-size:13px;line-height:1;padding:2px 4px;opacity:.35;margin-inline-start:6px;}
 .del:hover{opacity:1;color:#c0392b;}
@@ -83,6 +95,7 @@ font-size:13px;line-height:1;padding:2px 4px;opacity:.35;margin-inline-start:6px
 <input id="search" type="search" placeholder="חיפוש בהודעות…">
 <select id="sender" aria-label="סינון לפי שולח">
 <option value="">כל השולחים</option></select>
+<button id="onlystar" type="button">☆ מסומנות (0)</button>
 </header>
 <div id="navwrap"><div id="navback"></div>
 <div id="nav"><h2>קפיצה לתאריך</h2><div id="navlist"></div></div></div>
@@ -92,9 +105,15 @@ font-size:13px;line-height:1;padding:2px 4px;opacity:.35;margin-inline-start:6px
 <script>
 var DELURL="https://script.google.com/macros/s/AKfycbywxKrMfM1pMURY56tO8uO7umcvNAzLM4hzdYx0SggivXVhpozyz0D6YttNFHkwRfQl/exec";
 var months=[],loaded=[],all=[],filter="",senderFilter="";
+var starFilter=false,stars={};
+try{stars=JSON.parse(localStorage.getItem("noam_stars")||"{}")||{};}
+catch(e){stars={};}
+function saveStars(){try{
+ localStorage.setItem("noam_stars",JSON.stringify(stars));}catch(e){}}
 var feed=document.getElementById("feed"),more=document.getElementById("more");
 var statusEl=document.getElementById("status"),sub=document.getElementById("sub");
 var senderSel=document.getElementById("sender");
+var starBtn=document.getElementById("onlystar");
 var navWrap=document.getElementById("navwrap");
 var navList=document.getElementById("navlist");
 var firstRender=true;
@@ -129,6 +148,7 @@ function render(){
  var list=all.slice();
  if(senderFilter)list=list.filter(function(m){
   return (m.sender||"")===senderFilter;});
+ if(starFilter)list=list.filter(function(m){return stars[m.id];});
  if(filter){var q=filter.toLowerCase();list=list.filter(function(m){
   return (m.text||"").toLowerCase().indexOf(q)>-1||
    (m.sender||"").toLowerCase().indexOf(q)>-1;});}
@@ -137,7 +157,8 @@ function render(){
  list.forEach(function(m){
   if(m.date!==lastDay){lastDay=m.date;
    html+='<div class="day"><span>'+esc(m.date)+"</span></div>";}
-  html+='<div class="msg" data-id="'+esc(m.id||"")+'" data-mo="'+
+  html+='<div class="msg'+(stars[m.id]?" starred":"")+'" data-id="'+
+   esc(m.id||"")+'" data-mo="'+
    esc(String(m.date||"").slice(0,7))+'">';
   html+='<div class="who">'+esc(m.sender)+"</div>";
   if(m.text)html+='<div class="txt">'+linkify(esc(m.text))+"</div>";
@@ -145,19 +166,28 @@ function render(){
   if(m.drive&&m.drive.url)f.push(driveHtml(m.drive));
   if(f.length)html+='<div class="files">'+f.join("")+"</div>";
   html+='<div class="when">'+esc(m.time)+
+   (m.id?' <button class="star'+(stars[m.id]?" on":"")+'" title="הדגשה אישית">&#9733;</button>':"")+
    (DELURL&&m.id?' <button class="del" title="מחיקת ההודעה">&#10005;</button>':"")+
    "</div></div>";});
  feed.innerHTML=html;
  [].forEach.call(feed.querySelectorAll(".day"),function(el){
   el.id="d-"+el.textContent.trim();});
- statusEl.textContent=list.length?"":((filter||senderFilter)?"אין תוצאות.":"אין עדיין הודעות.");
+ statusEl.textContent=list.length?"":
+  (starFilter&&!starCount()?"עדיין לא הדגשת הודעות. לחצו על ★ ליד הודעה.":
+  ((filter||senderFilter||starFilter)?"אין תוצאות.":"אין עדיין הודעות."));
  sub.textContent=(list.length!==all.length?list.length+" מתוך "+all.length:all.length)
   +" הודעות · "+loaded.length+" מתוך "+months.length+" חודשים";
  more.hidden=loaded.length>=months.length;
- buildNav(list);buildSenders();
+ buildNav(list);buildSenders();updateStarBtn();
  if(firstRender&&!filter&&list.length){firstRender=false;
   setTimeout(function(){
    window.scrollTo(0,document.documentElement.scrollHeight);},60);}}
+function starCount(){
+ var n=0;all.forEach(function(m){if(stars[m.id])n++;});return n;}
+function updateStarBtn(){
+ starBtn.textContent=(starFilter?"★ ":"☆ ")+"מסומנות ("+starCount()+")";
+ if(starFilter)starBtn.classList.add("on");
+ else starBtn.classList.remove("on");}
 function buildSenders(){
  var counts={};
  all.forEach(function(m){var s=m.sender||"";
@@ -228,7 +258,21 @@ document.getElementById("search").addEventListener("input",function(e){
  filter=e.target.value.trim();render();});
 senderSel.addEventListener("change",function(e){
  senderFilter=e.target.value;render();});
+starBtn.addEventListener("click",function(){
+ starFilter=!starFilter;render();});
 feed.addEventListener("click",function(e){
+ var sb=e.target.closest?e.target.closest(".star"):null;
+ if(sb){
+  var sbox=sb.closest(".msg"),sid=sbox.getAttribute("data-id");
+  if(!sid)return;
+  if(stars[sid])delete stars[sid];else stars[sid]=1;
+  saveStars();
+  // כשהסינון פעיל ההודעה צריכה להיעלם, ולכן רינדור מלא.
+  // אחרת די בהחלפת מחלקה — בלי הבהוב ובלי לאבד מיקום גלילה.
+  if(starFilter){render();}
+  else{sbox.classList.toggle("starred");
+   sb.classList.toggle("on");updateStarBtn();}
+  return;}
  var b=e.target.closest?e.target.closest(".del"):null;
  if(!b||!DELURL)return;
  var box=b.closest(".msg");
