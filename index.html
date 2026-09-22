@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- noam-archive-generated v7 -->
+<!-- noam-archive-generated v8 -->
 <html lang="he" dir="rtl">
 <head>
 <meta charset="utf-8">
@@ -19,6 +19,9 @@ header h1{margin:0;font-size:18px;font-weight:600;}
 header .sub{font-size:12px;opacity:.85;margin-top:2px;}
 #search{width:100%;box-sizing:border-box;margin-top:10px;padding:8px 10px;
 border:0;border-radius:8px;font-size:14px;font-family:inherit;}
+#sender{width:100%;box-sizing:border-box;margin-top:8px;padding:8px 10px;
+border:0;border-radius:8px;font-size:14px;font-family:inherit;
+background:#fff;color:#1f2421;}
 main{max-width:780px;margin:0 auto;padding:16px;}
 .day{text-align:center;margin:18px 0 10px;}
 .day span{background:var(--panel);border:1px solid var(--line);color:var(--muted);
@@ -78,6 +81,8 @@ font-size:13px;line-height:1;padding:2px 4px;opacity:.35;margin-inline-start:6px
 <button id="navbtn" title="תאריכים" aria-label="תאריכים">&#128197;</button></div>
 <div class="sub" id="sub">טוען…</div>
 <input id="search" type="search" placeholder="חיפוש בהודעות…">
+<select id="sender" aria-label="סינון לפי שולח">
+<option value="">כל השולחים</option></select>
 </header>
 <div id="navwrap"><div id="navback"></div>
 <div id="nav"><h2>קפיצה לתאריך</h2><div id="navlist"></div></div></div>
@@ -86,9 +91,10 @@ font-size:13px;line-height:1;padding:2px 4px;opacity:.35;margin-inline-start:6px
 <div id="status">טוען…</div></main>
 <script>
 var DELURL="https://script.google.com/macros/s/AKfycbywxKrMfM1pMURY56tO8uO7umcvNAzLM4hzdYx0SggivXVhpozyz0D6YttNFHkwRfQl/exec";
-var months=[],loaded=[],all=[],filter="";
+var months=[],loaded=[],all=[],filter="",senderFilter="";
 var feed=document.getElementById("feed"),more=document.getElementById("more");
 var statusEl=document.getElementById("status"),sub=document.getElementById("sub");
+var senderSel=document.getElementById("sender");
 var navWrap=document.getElementById("navwrap");
 var navList=document.getElementById("navlist");
 var firstRender=true;
@@ -121,6 +127,8 @@ function driveHtml(d){var id=driveId(d.url);
   'https://drive.google.com/file/d/'+id+'/preview"></iframe>'+lnk+"</div>";}
 function render(){
  var list=all.slice();
+ if(senderFilter)list=list.filter(function(m){
+  return (m.sender||"")===senderFilter;});
  if(filter){var q=filter.toLowerCase();list=list.filter(function(m){
   return (m.text||"").toLowerCase().indexOf(q)>-1||
    (m.sender||"").toLowerCase().indexOf(q)>-1;});}
@@ -142,16 +150,29 @@ function render(){
  feed.innerHTML=html;
  [].forEach.call(feed.querySelectorAll(".day"),function(el){
   el.id="d-"+el.textContent.trim();});
- statusEl.textContent=list.length?"":(filter?"אין תוצאות.":"אין עדיין הודעות.");
- sub.textContent=all.length+" הודעות · "+loaded.length+" מתוך "+months.length+" חודשים";
+ statusEl.textContent=list.length?"":((filter||senderFilter)?"אין תוצאות.":"אין עדיין הודעות.");
+ sub.textContent=(list.length!==all.length?list.length+" מתוך "+all.length:all.length)
+  +" הודעות · "+loaded.length+" מתוך "+months.length+" חודשים";
  more.hidden=loaded.length>=months.length;
- buildNav();
+ buildNav(list);buildSenders();
  if(firstRender&&!filter&&list.length){firstRender=false;
   setTimeout(function(){
    window.scrollTo(0,document.documentElement.scrollHeight);},60);}}
-function buildNav(){
+function buildSenders(){
+ var counts={};
+ all.forEach(function(m){var s=m.sender||"";
+  if(s)counts[s]=(counts[s]||0)+1;});
+ var names=Object.keys(counts).sort(function(a,b){
+  return counts[b]-counts[a]||a.localeCompare(b,"he");});
+ if(senderFilter&&names.indexOf(senderFilter)<0)senderFilter="";
+ var html='<option value="">כל השולחים ('+all.length+')</option>';
+ names.forEach(function(n){
+  html+='<option value="'+esc(n)+'">'+esc(n)+" ("+counts[n]+")</option>";});
+ senderSel.innerHTML=html;
+ senderSel.value=senderFilter;}
+function buildNav(list){
  var byDate={};
- all.forEach(function(m){byDate[m.date]=(byDate[m.date]||0)+1;});
+ (list||all).forEach(function(m){byDate[m.date]=(byDate[m.date]||0)+1;});
  navList.innerHTML="";
  months.slice().sort().reverse().forEach(function(mo){
   var box=document.createElement("div");box.className="nav-mo";
@@ -205,6 +226,8 @@ function loadMonth(m){return fetch("data/"+m+".json?t="+Date.now())
  .then(function(d){all=all.concat(d.messages||[]);loaded.push(m);});}
 document.getElementById("search").addEventListener("input",function(e){
  filter=e.target.value.trim();render();});
+senderSel.addEventListener("change",function(e){
+ senderFilter=e.target.value;render();});
 feed.addEventListener("click",function(e){
  var b=e.target.closest?e.target.closest(".del"):null;
  if(!b||!DELURL)return;
