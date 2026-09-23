@@ -1,7 +1,7 @@
 {
  "month": "2026-09",
  "group": "משפחת נעם תשפ״ז",
- "updated": "2026-09-22T18:19:01.171Z",
+ "updated": "2026-09-23T00:31:07.442Z",
  "messages": [
   {
    "id": "1a05b0fd61a0e542",
@@ -5744,25 +5744,6 @@
    "date": "2026-09-22",
    "time": "20:55",
    "files": [],
-   "drive": null
-  },
-  {
-   "id": "1a0ca42dee11b34c",
-   "sender": "המורה מלכה טרבלסי",
-   "text": "[הודעה קולית]",
-   "ts": 1790099770000,
-   "date": "2026-09-22",
-   "time": "20:56",
-   "files": [
-    {
-     "name": "הודעה קולית.ogg",
-     "size": "7KB",
-     "type": "application/octet-stream",
-     "path": "media/2026-09/1a0ca42dee11b34c_1.ogg",
-     "url": "",
-     "skipped": ""
-    }
-   ],
    "drive": null
   },
   {
