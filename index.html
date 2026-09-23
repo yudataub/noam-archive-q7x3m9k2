@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- noam-archive-generated v12 -->
+<!-- noam-archive-generated v11 -->
 <html lang="he" dir="rtl">
 <head>
 <meta charset="utf-8">
@@ -87,7 +87,6 @@ background:rgba(255,255,255,.18);color:#fff;}
 font-size:13px;line-height:1;padding:2px 4px;opacity:.35;margin-inline-start:6px;}
 .del:hover{opacity:1;color:#c0392b;}
 .msg:hover .del{opacity:.75;}
-mark.hit{background:#ffe066;color:#1f2421;font-weight:700;border-radius:3px;padding:0 1px;}
 #status{text-align:center;color:var(--muted);padding:20px;font-size:14px;}
 </style>
 </head>
@@ -202,7 +201,6 @@ function render(){
    (DELURL&&m.id?' <button class="del" title="מחיקת ההודעה">&#10005;</button>':"")+
    "</div></div>";});
  feed.innerHTML=html;
- markHits(filter);
  [].forEach.call(feed.querySelectorAll(".day"),function(el){
   el.id="d-"+el.textContent.trim();});
  statusEl.textContent=list.length?"":
@@ -215,20 +213,6 @@ function render(){
  if(firstRender&&!filter&&list.length){firstRender=false;
   setTimeout(function(){
    window.scrollTo(0,document.documentElement.scrollHeight);},60);}}
-// הדגשת מילות החיפוש. עובר על צמתי הטקסט בלבד (לא על מחרוזת ה-HTML),
-// כדי שחיפוש כמו "amp" או "href" לא ישבור ישויות וקישורים.
-function markHits(q){if(!q)return;q=q.toLowerCase();
- [].forEach.call(feed.querySelectorAll(".txt,.who"),function(box){
-  var w=document.createTreeWalker(box,NodeFilter.SHOW_TEXT,null),nodes=[],n;
-  while((n=w.nextNode()))nodes.push(n);
-  nodes.forEach(function(t){var s=t.nodeValue,low=s.toLowerCase(),i=low.indexOf(q);
-   if(i<0)return;var frag=document.createDocumentFragment(),p=0;
-   while(i>-1){frag.appendChild(document.createTextNode(s.slice(p,i)));
-    var mk=document.createElement("mark");mk.className="hit";
-    mk.textContent=s.slice(i,i+q.length);frag.appendChild(mk);
-    p=i+q.length;i=low.indexOf(q,p);}
-   frag.appendChild(document.createTextNode(s.slice(p)));
-   t.parentNode.replaceChild(frag,t);});});}
 function starCount(){
  var n=0;all.forEach(function(m){if(stars[m.id])n++;});return n;}
 function updateStarBtn(){
