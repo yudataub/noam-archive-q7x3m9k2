@@ -1,7 +1,7 @@
 {
  "month": "2026-09",
  "group": "משפחת נעם תשפ״ז",
- "updated": "2026-09-26T17:37:30.873Z",
+ "updated": "2026-09-26T17:52:50.017Z",
  "messages": [
   {
    "id": "1a05b0fd61a0e542",
@@ -6096,6 +6096,24 @@
      "size": "358KB",
      "type": "image/jpeg",
      "path": "media/2026-09/1a0dec3bb2b550ed_1.jpg",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a0decbb166cac01",
+   "sender": "המנהלת אורלי אוחנה",
+   "text": "[תמונה]",
+   "ts": 1790444279000,
+   "date": "2026-09-26",
+   "time": "20:37",
+   "files": [
+    {
+     "name": "תמונה.jpg",
+     "size": "339KB",
+     "type": "image/jpeg",
+     "path": "media/2026-09/1a0decbb166cac01_1.jpg",
      "skipped": ""
     }
    ],
