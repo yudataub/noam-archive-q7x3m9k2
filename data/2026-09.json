@@ -1,7 +1,7 @@
 {
  "month": "2026-09",
  "group": "משפחת נעם תשפ״ז",
- "updated": "2026-09-28T08:52:38.891Z",
+ "updated": "2026-09-29T05:37:35.805Z",
  "messages": [
   {
    "id": "1a05b0fd61a0e542",
@@ -6240,6 +6240,34 @@
    "ts": 1790584978000,
    "date": "2026-09-28",
    "time": "11:42",
+   "files": [],
+   "drive": null
+  },
+  {
+   "id": "1a0eba3a090d3164",
+   "sender": "המנהלת אורלי אוחנה",
+   "text": "https://tinyurl.com/2ynf7nas משה רבינו",
+   "ts": 1790659755000,
+   "date": "2026-09-29",
+   "time": "08:29",
+   "files": [
+    {
+     "name": "תמונה.jpg",
+     "size": "626KB",
+     "type": "image/jpeg",
+     "path": "media/2026-09/1a0eba3a090d3164_1.jpg",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a0eba3adc2d5afc",
+   "sender": "המנהלת אורלי אוחנה",
+   "text": "מועדים לשמחה ❤️",
+   "ts": 1790659759000,
+   "date": "2026-09-29",
+   "time": "08:29",
    "files": [],
    "drive": null
   }
