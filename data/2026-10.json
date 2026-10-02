@@ -1,7 +1,7 @@
 {
  "month": "2026-10",
  "group": "משפחת נעם תשפ״ז",
- "updated": "2026-10-01T04:18:33.461Z",
+ "updated": "2026-10-02T08:12:20.143Z",
  "messages": [
   {
    "id": "1a0f5abd033728c2",
@@ -49,6 +49,100 @@
    "date": "2026-10-01",
    "time": "07:14",
    "files": [],
+   "drive": null
+  },
+  {
+   "id": "1a0fba04662fe40e",
+   "sender": "המנהלת אורלי אוחנה",
+   "text": "[מסמך]",
+   "ts": 1790927975000,
+   "date": "2026-10-02",
+   "time": "10:59",
+   "files": [
+    {
+     "name": "הודעות חשובות.docx",
+     "size": "17KB",
+     "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+     "path": "media/2026-10/1a0fba04662fe40e_1.docx",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a0fba08f01c8c18",
+   "sender": "המנהלת אורלי אוחנה",
+   "text": "https://www.canva.com/link?target=https%3A%2F%2Fwww.canva.com%2Fdesign%2FDAGQLm9qSEw%2F7Iiz57xDJKgo8sZu83wVsw%2Fview%3Futm_content%3DDAGQLm9qSEw%26utm_campaign%3Ddesignshare%26utm_medium%3Dlink2%26utm_source%3Duniquelinks%26utlId%3Dh90d015177e&design=DAHUCJz3OOo&utl=h5ebfe34267&accessRole=viewer&linkSource=document",
+   "ts": 1790927993000,
+   "date": "2026-10-02",
+   "time": "10:59",
+   "files": [],
+   "drive": null
+  },
+  {
+   "id": "1a0fba08ea833e3d",
+   "sender": "המנהלת אורלי אוחנה",
+   "text": "https://www.canva.com/link?target=https%3A%2F%2Fwww.canva.com%2Fdesign%2FDAGynjHcktw%2F7nqurMrDrCS3SQCNojkcVg%2Fview%3Futm_content%3DDAGynjHcktw%26utm_campaign%3Ddesignshare%26utm_medium%3Dlink2%26utm_source%3Duniquelinks%26utlId%3Dh381b31fb33&design=DAHUCJz3OOo&utl=h5ebfe34267&accessRole=viewer&linkSource=document",
+   "ts": 1790927994000,
+   "date": "2026-10-02",
+   "time": "10:59",
+   "files": [],
+   "drive": null
+  },
+  {
+   "id": "1a0fba2921a57f21",
+   "sender": "המנהלת אורלי אוחנה",
+   "text": "צוות יקר❤️\nמצ\"ב קובץ הודעות חשובות לקראת החזרה לשגרת לימודים.\nפתקא טבא, שבת מבורכת וחג שמח, אורלי.",
+   "ts": 1790928126000,
+   "date": "2026-10-02",
+   "time": "11:02",
+   "files": [],
+   "drive": null
+  },
+  {
+   "id": "1a0fba2d013bfc68",
+   "sender": "המנהלת אורלי אוחנה",
+   "text": "[תמונה]",
+   "ts": 1790928142000,
+   "date": "2026-10-02",
+   "time": "11:02",
+   "files": [
+    {
+     "name": "תמונה.jpg",
+     "size": "44KB",
+     "type": "image/jpeg",
+     "path": "media/2026-10/1a0fba2d013bfc68_1.jpg",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a0fba549347a92a",
+   "sender": "המנהלת אורלי אוחנה",
+   "text": "לא לשכוח לשלוח להורים❤️",
+   "ts": 1790928303000,
+   "date": "2026-10-02",
+   "time": "11:05",
+   "files": [],
+   "drive": null
+  },
+  {
+   "id": "1a0fba6646fb7570",
+   "sender": "המנהלת אורלי אוחנה",
+   "text": "[מסמך]",
+   "ts": 1790928375000,
+   "date": "2026-10-02",
+   "time": "11:06",
+   "files": [
+    {
+     "name": "שיח בכיתות עם החזרה מחופשת סוכות, תשפז.pdf",
+     "size": "158KB",
+     "type": "application/pdf",
+     "path": "media/2026-10/1a0fba6646fb7570_1.pdf",
+     "skipped": ""
+    }
+   ],
    "drive": null
   }
  ]
