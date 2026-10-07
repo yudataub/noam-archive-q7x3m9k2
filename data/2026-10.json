@@ -1,7 +1,7 @@
 {
  "month": "2026-10",
  "group": "משפחת נעם תשפ״ז",
- "updated": "2026-10-07T12:42:13.629Z",
+ "updated": "2026-10-07T14:57:16.743Z",
  "messages": [
   {
    "id": "1a0f5abd033728c2",
@@ -537,6 +537,64 @@
     "size": "133.5MB",
     "url": "https://drive.google.com/file/d/1r74rnNSe4bpPH21n9tvBeqIjYVZ8SLvx/view?usp=drivesdk"
    }
+  },
+  {
+   "id": "1a116d26d27abffb",
+   "sender": "המנהלת אורלי אוחנה",
+   "text": "[וידאו]",
+   "ts": 1791384243000,
+   "date": "2026-10-07",
+   "time": "17:44",
+   "files": [
+    {
+     "name": "וידאו.mp4",
+     "size": "7.5MB",
+     "type": "video/mp4",
+     "path": "",
+     "skipped": "גדול מדי לארכיון"
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a116dca5517bf42",
+   "sender": "המורה הילה שמר",
+   "text": "מקסים ומרגש!❤️",
+   "ts": 1791384917000,
+   "date": "2026-10-07",
+   "time": "17:55",
+   "files": [],
+   "drive": null
+  },
+  {
+   "id": "1a116dcc2db4dc43",
+   "sender": "המורה הילה שמר",
+   "text": "לשלוח להורים?",
+   "ts": 1791384925000,
+   "date": "2026-10-07",
+   "time": "17:55",
+   "files": [],
+   "drive": null
+  },
+  {
+   "id": "1a116dd0dda5cf8f",
+   "sender": "המורה מלכה טרבלסקי",
+   "text": "רגע חכו....\nאורלי מוסיפה ילדים...",
+   "ts": 1791384944000,
+   "date": "2026-10-07",
+   "time": "17:55",
+   "files": [],
+   "drive": null
+  },
+  {
+   "id": "1a116de170d0e980",
+   "sender": "המורה רחל תהילה",
+   "text": "אפשר גם לשלוח?",
+   "ts": 1791385012000,
+   "date": "2026-10-07",
+   "time": "17:56",
+   "files": [],
+   "drive": null
   }
  ]
 }
