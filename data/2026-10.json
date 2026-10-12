@@ -1,7 +1,7 @@
 {
  "month": "2026-10",
  "group": "משפחת נעם תשפ״ז",
- "updated": "2026-10-12T16:12:13.930Z",
+ "updated": "2026-10-12T16:27:17.116Z",
  "messages": [
   {
    "id": "1a0f5abd033728c2",
@@ -1685,6 +1685,42 @@
    "date": "2026-10-12",
    "time": "18:57",
    "files": [],
+   "drive": null
+  },
+  {
+   "id": "1a130e9824ed5a29",
+   "sender": "המנהלת אורלי אוחנה",
+   "text": "[מסמך]",
+   "ts": 1791821965000,
+   "date": "2026-10-12",
+   "time": "19:19",
+   "files": [
+    {
+     "name": "מגמות בנים-2.docx",
+     "size": "14KB",
+     "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+     "path": "media/2026-10/1a130e9824ed5a29_1.docx",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a130e98719d6b95",
+   "sender": "המנהלת אורלי אוחנה",
+   "text": "[מסמך]",
+   "ts": 1791821966000,
+   "date": "2026-10-12",
+   "time": "19:19",
+   "files": [
+    {
+     "name": "מגמות בנות-3.docx",
+     "size": "13KB",
+     "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+     "path": "media/2026-10/1a130e98719d6b95_1.docx",
+     "skipped": ""
+    }
+   ],
    "drive": null
   }
  ]
