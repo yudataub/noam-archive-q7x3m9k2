@@ -1,7 +1,7 @@
 {
  "month": "2026-10",
  "group": "משפחת נעם תשפ״ז",
- "updated": "2026-10-12T04:12:11.629Z",
+ "updated": "2026-10-12T07:12:21.651Z",
  "messages": [
   {
    "id": "1a0f5abd033728c2",
@@ -1467,6 +1467,78 @@
    "date": "2026-10-12",
    "time": "07:00",
    "files": [],
+   "drive": null
+  },
+  {
+   "id": "1a12eea634bd7330",
+   "sender": "המורה מלכה טרבלסי",
+   "text": "[תמונה]",
+   "ts": 1791788470000,
+   "date": "2026-10-12",
+   "time": "10:01",
+   "files": [
+    {
+     "name": "תמונה.jpg",
+     "size": "86KB",
+     "type": "image/jpeg",
+     "path": "media/2026-10/1a12eea634bd7330_1.jpg",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a12eee5887464eb",
+   "sender": "המורה שרה עמור",
+   "text": "[תמונה]",
+   "ts": 1791788726000,
+   "date": "2026-10-12",
+   "time": "10:05",
+   "files": [
+    {
+     "name": "תמונה.jpg",
+     "size": "169KB",
+     "type": "image/jpeg",
+     "path": "media/2026-10/1a12eee5887464eb_1.jpg",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a12eee4da3d159d",
+   "sender": "המורה שרה עמור",
+   "text": "[תמונה]",
+   "ts": 1791788726000,
+   "date": "2026-10-12",
+   "time": "10:05",
+   "files": [
+    {
+     "name": "תמונה.jpg",
+     "size": "272KB",
+     "type": "image/jpeg",
+     "path": "media/2026-10/1a12eee4da3d159d_1.jpg",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a12eee58128d95c",
+   "sender": "המורה שרה עמור",
+   "text": "[תמונה]",
+   "ts": 1791788727000,
+   "date": "2026-10-12",
+   "time": "10:05",
+   "files": [
+    {
+     "name": "תמונה.jpg",
+     "size": "120KB",
+     "type": "image/jpeg",
+     "path": "media/2026-10/1a12eee58128d95c_1.jpg",
+     "skipped": ""
+    }
+   ],
    "drive": null
   }
  ]
