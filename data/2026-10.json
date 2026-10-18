@@ -1,7 +1,7 @@
 {
  "month": "2026-10",
  "group": "משפחת נעם תשפ״ז",
- "updated": "2026-10-17T18:57:36.696Z",
+ "updated": "2026-10-18T00:42:26.428Z",
  "messages": [
   {
    "id": "1a0f5abd033728c2",
@@ -2512,6 +2512,52 @@
      "size": "9KB",
      "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
      "path": "media/2026-10/1a14b37eaa3dcb0c_1.docx",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a14c71647c96f7c",
+   "sender": "המורה מלכה טרבלסי",
+   "text": "לילה/בוקר טוב.. מחנכות כיתה ב ג ד בנים ובנות....בבקשה תבדקו אם כל הילדים במגמה הנכונה... במקרה שיש בעיה... נא לכתוב לי באישי.. בבקשה עד מחר בצהריים לבדוק",
+   "ts": 1792283854000,
+   "date": "2026-10-18",
+   "time": "03:37",
+   "files": [],
+   "drive": null
+  },
+  {
+   "id": "1a14c71a53152e2d",
+   "sender": "המורה מלכה טרבלסי",
+   "text": "[מסמך]",
+   "ts": 1792283869000,
+   "date": "2026-10-18",
+   "time": "03:37",
+   "files": [
+    {
+     "name": "מגמות בנות.docx",
+     "size": "1.7MB",
+     "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+     "path": "media/2026-10/1a14c71a53152e2d_1.docx",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a14c71af6da3e55",
+   "sender": "המורה מלכה טרבלסי",
+   "text": "[מסמך]",
+   "ts": 1792283874000,
+   "date": "2026-10-18",
+   "time": "03:37",
+   "files": [
+    {
+     "name": "מגמות בנים.docx",
+     "size": "20KB",
+     "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+     "path": "media/2026-10/1a14c71af6da3e55_1.docx",
      "skipped": ""
     }
    ],
