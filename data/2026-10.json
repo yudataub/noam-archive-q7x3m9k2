@@ -1,7 +1,7 @@
 {
  "month": "2026-10",
  "group": "משפחת נעם תשפ״ז",
- "updated": "2026-10-20T13:51:17.543Z",
+ "updated": "2026-10-20T14:51:40.449Z",
  "messages": [
   {
    "id": "1a0f5abd033728c2",
@@ -3216,6 +3216,170 @@
    "ts": 1792501274000,
    "date": "2026-10-20",
    "time": "16:01",
+   "files": [],
+   "drive": null
+  },
+  {
+   "id": "1a1599b94c6e9f80",
+   "sender": "המורה מלכה טרבלסי",
+   "text": "אתמול שלחתי בקבוצת חשבון\nאקסל ומחוונים למבחנים\nלא כולם קבלו\nאני שולחת פה בתקווה שכולם יקבלו",
+   "ts": 1792504724000,
+   "date": "2026-10-20",
+   "time": "16:58",
+   "files": [],
+   "drive": null
+  },
+  {
+   "id": "1a1599c305450db5",
+   "sender": "המורה מלכה טרבלסי",
+   "text": "[מסמך]",
+   "ts": 1792504761000,
+   "date": "2026-10-20",
+   "time": "16:59",
+   "files": [
+    {
+     "name": "שכבת ג.xlsx",
+     "size": "488KB",
+     "type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+     "path": "media/2026-10/1a1599c305450db5_1.xlsx",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a1599c2f9c8fd5b",
+   "sender": "המורה מלכה טרבלסי",
+   "text": "[מסמך]",
+   "ts": 1792504761000,
+   "date": "2026-10-20",
+   "time": "16:59",
+   "files": [
+    {
+     "name": "כיתה ה אוקטובר מחוון.pdf",
+     "size": "374KB",
+     "type": "application/pdf",
+     "path": "media/2026-10/1a1599c2f9c8fd5b_1.pdf",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a1599c2ecd7c214",
+   "sender": "המורה מלכה טרבלסי",
+   "text": "[מסמך]",
+   "ts": 1792504761000,
+   "date": "2026-10-20",
+   "time": "16:59",
+   "files": [
+    {
+     "name": "כיתה ו  מחוון אוקטובר תשפז.pdf",
+     "size": "652KB",
+     "type": "application/pdf",
+     "path": "media/2026-10/1a1599c2ecd7c214_1.pdf",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a1599c288f5c37d",
+   "sender": "המורה מלכה טרבלסי",
+   "text": "[מסמך]",
+   "ts": 1792504761000,
+   "date": "2026-10-20",
+   "time": "16:59",
+   "files": [
+    {
+     "name": "שכבת ד.xlsx",
+     "size": "484KB",
+     "type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+     "path": "media/2026-10/1a1599c288f5c37d_1.xlsx",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a1599c25f9bd061",
+   "sender": "המורה מלכה טרבלסי",
+   "text": "[מסמך]",
+   "ts": 1792504761000,
+   "date": "2026-10-20",
+   "time": "16:59",
+   "files": [
+    {
+     "name": "שכבת ה.xlsx",
+     "size": "80KB",
+     "type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+     "path": "media/2026-10/1a1599c25f9bd061_1.xlsx",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a1599c234e8b79f",
+   "sender": "המורה מלכה טרבלסי",
+   "text": "[מסמך]",
+   "ts": 1792504761000,
+   "date": "2026-10-20",
+   "time": "16:59",
+   "files": [
+    {
+     "name": "שכבת ו.xlsx",
+     "size": "76KB",
+     "type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+     "path": "media/2026-10/1a1599c234e8b79f_1.xlsx",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a1599c3f51ab92d",
+   "sender": "המורה מלכה טרבלסי",
+   "text": "[מסמך]",
+   "ts": 1792504762000,
+   "date": "2026-10-20",
+   "time": "16:59",
+   "files": [
+    {
+     "name": "ד מחוון.pdf",
+     "size": "4.2MB",
+     "type": "application/pdf",
+     "path": "",
+     "skipped": "גדול מדי לארכיון"
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a1599c349ea8bf1",
+   "sender": "המורה מלכה טרבלסי",
+   "text": "[מסמך]",
+   "ts": 1792504762000,
+   "date": "2026-10-20",
+   "time": "16:59",
+   "files": [
+    {
+     "name": "כיתה ג אוקטובר מחוון סופי.pdf",
+     "size": "280KB",
+     "type": "application/pdf",
+     "path": "media/2026-10/1a1599c349ea8bf1_1.pdf",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a159bfece88f356",
+   "sender": "המנהלת אורלי אוחנה",
+   "text": "צוות יקר ואהוב,\nאני רוצה לעצור לרגע ולהגיד לכם תודה ענקית ויישר כוח גדול!\nהיום התקיים אצלנו ביקור מפיקוח רשת נעם, והתוצאות היו פשוט מעולות! הביקור השיג את מטרתו והשתקפה בו העבודה המקצועית, המסורה והעמוקה שאתם עושים בכל יום ויום.\nראו את ההשקעה שלכם, את הלב הפתוח, את הברק בעיניים של התלמידים ואת הדרך החינוכית והערכית שמובילה את בית הספר שלנו.\nההצלחה של היום היא אך ורק בזכות כל אחת ואחד מכם – בזכות העבודה, השותפות והרוח הגדולה שאתם מביאים לבית הספר.\nגאה להוביל צוות אלוף כזה!\nבהערכה רבה,\nאורלי❤️",
+   "ts": 1792507106000,
+   "date": "2026-10-20",
+   "time": "17:38",
    "files": [],
    "drive": null
   }
