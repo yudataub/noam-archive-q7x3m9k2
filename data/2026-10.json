@@ -1,7 +1,7 @@
 {
  "month": "2026-10",
  "group": "משפחת נעם תשפ״ז",
- "updated": "2026-10-24T16:51:22.902Z",
+ "updated": "2026-10-24T17:51:25.900Z",
  "messages": [
   {
    "id": "1a0f5abd033728c2",
@@ -4102,6 +4102,110 @@
    "ts": 1792859107000,
    "date": "2026-10-24",
    "time": "19:25",
+   "files": [],
+   "drive": null
+  },
+  {
+   "id": "1a16eda0c900c6ed",
+   "sender": "המורה למפ מיכל",
+   "text": "[תמונה]",
+   "ts": 1792861139000,
+   "date": "2026-10-24",
+   "time": "19:58",
+   "files": [
+    {
+     "name": "תמונה.jpg",
+     "size": "184KB",
+     "type": "image/jpeg",
+     "path": "media/2026-10/1a16eda0c900c6ed_1.jpg",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a16eda1f53526e6",
+   "sender": "המורה למפ מיכל",
+   "text": "שימו לב❤️",
+   "ts": 1792861144000,
+   "date": "2026-10-24",
+   "time": "19:59",
+   "files": [],
+   "drive": null
+  },
+  {
+   "id": "1a16eda318e9ce0d",
+   "sender": "המורה למפ מיכל",
+   "text": "[מדבקה]",
+   "ts": 1792861148000,
+   "date": "2026-10-24",
+   "time": "19:59",
+   "files": [],
+   "drive": null
+  },
+  {
+   "id": "1a16ef149a39b34c",
+   "sender": "המנהלת אורלי אוחנה",
+   "text": "[מסמך]",
+   "ts": 1792862662000,
+   "date": "2026-10-24",
+   "time": "20:24",
+   "files": [
+    {
+     "name": "סיכום שבועי- פרשת לך לך.docx",
+     "size": "15KB",
+     "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+     "path": "media/2026-10/1a16ef149a39b34c_1.docx",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a16ef43dea87259",
+   "sender": "המורה חנה וסרמן",
+   "text": "[מדבקה]",
+   "ts": 1792862855000,
+   "date": "2026-10-24",
+   "time": "20:27",
+   "files": [],
+   "drive": null
+  },
+  {
+   "id": "1a16ef43d5165646",
+   "sender": "המורה חנה וסרמן",
+   "text": "[מדבקה]",
+   "ts": 1792862855000,
+   "date": "2026-10-24",
+   "time": "20:27",
+   "files": [],
+   "drive": null
+  },
+  {
+   "id": "1a16ef7cfa405a0e",
+   "sender": "המנהלת אורלי אוחנה",
+   "text": "[תמונה]",
+   "ts": 1792863088000,
+   "date": "2026-10-24",
+   "time": "20:31",
+   "files": [
+    {
+     "name": "תמונה.jpg",
+     "size": "373KB",
+     "type": "image/jpeg",
+     "path": "media/2026-10/1a16ef7cfa405a0e_1.jpg",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a16ef8026c938f8",
+   "sender": "המנהלת אורלי אוחנה",
+   "text": "☝️תזכירו שוב בקבוצת ההורים.",
+   "ts": 1792863103000,
+   "date": "2026-10-24",
+   "time": "20:31",
    "files": [],
    "drive": null
   }
