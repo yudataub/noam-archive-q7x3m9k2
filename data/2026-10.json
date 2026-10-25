@@ -1,7 +1,7 @@
 {
  "month": "2026-10",
  "group": "משפחת נעם תשפ״ז",
- "updated": "2026-10-25T07:51:19.067Z",
+ "updated": "2026-10-25T08:51:30.112Z",
  "messages": [
   {
    "id": "1a0f5abd033728c2",
@@ -4278,6 +4278,34 @@
      "size": "79KB",
      "type": "image/jpeg",
      "path": "media/2026-10/1a171edfbf3772b1_1.jpg",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a1722796ff371c9",
+   "sender": "המורה מלכה אפטרגוט",
+   "text": "https://canva.link/d9vh5360ft57glo\nבוקר טוב , מצרפת הנחיות למיפוי שיש להעביר לכלל שכבות הגיל בתחילת השנה",
+   "ts": 1792916555000,
+   "date": "2026-10-25",
+   "time": "10:22",
+   "files": [],
+   "drive": null
+  },
+  {
+   "id": "1a17227a44edc51b",
+   "sender": "המורה מלכה אפטרגוט",
+   "text": "[מסמך]",
+   "ts": 1792916557000,
+   "date": "2026-10-25",
+   "time": "10:22",
+   "files": [
+    {
+     "name": "evaluation-tools.pdf",
+     "size": "272KB",
+     "type": "application/pdf",
+     "path": "media/2026-10/1a17227a44edc51b_1.pdf",
      "skipped": ""
     }
    ],
