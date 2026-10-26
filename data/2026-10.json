@@ -1,7 +1,7 @@
 {
  "month": "2026-10",
  "group": "משפחת נעם תשפ״ז",
- "updated": "2026-10-26T12:51:26.253Z",
+ "updated": "2026-10-26T19:51:29.589Z",
  "messages": [
   {
    "id": "1a0f5abd033728c2",
@@ -4541,6 +4541,68 @@
    "date": "2026-10-26",
    "time": "14:20",
    "files": [],
+   "drive": null
+  },
+  {
+   "id": "1a179b1ce28ed342",
+   "sender": "הרב יהודה טאוב",
+   "text": "ערב טוב מורים יקרים!\n\nמצורף *סרטון הסבר* לשימוש בצד המורה באתר הלמידה.\n\nבברכת המשך למידה משמעותית ומהנה.\n\n*נ.ב.* סביבת התלמיד נמצאת כעת בפיילוט מצומצם. בע\"ה נעדכן כאן כשיפתח לכולם.\n\nתודה על הסבלנות!\n\nצוות רצים למסכת - סולמות",
+   "ts": 1793043054000,
+   "date": "2026-10-26",
+   "time": "21:30",
+   "files": [],
+   "drive": null
+  },
+  {
+   "id": "1a179b1f545b2ba9",
+   "sender": "הרב יהודה טאוב",
+   "text": "[וידאו]",
+   "ts": 1793043064000,
+   "date": "2026-10-26",
+   "time": "21:31",
+   "files": [],
+   "drive": {
+    "name": "וידאו.mp4",
+    "size": "37.9MB",
+    "url": "https://drive.google.com/file/d/1yyve8jLpXBYtwzz2tHVFif1SjQ0EmYdx/view?usp=drivesdk"
+   }
+  },
+  {
+   "id": "1a179b2871393e6f",
+   "sender": "המורה מלכה טרבלסי",
+   "text": "תודה רבה",
+   "ts": 1793043102000,
+   "date": "2026-10-26",
+   "time": "21:31",
+   "files": [],
+   "drive": null
+  },
+  {
+   "id": "1a179b7ec140931b",
+   "sender": "המורה הילה שמר",
+   "text": "https://docs.google.com/document/d/1FGz7ML6py6_4LWEa0YW6Gbw-E1FJJB7YTR-NYzpaQ-Y/edit?usp=sharing",
+   "ts": 1793043456000,
+   "date": "2026-10-26",
+   "time": "21:37",
+   "files": [],
+   "drive": null
+  },
+  {
+   "id": "1a179b80d4b56f81",
+   "sender": "המורה הילה שמר",
+   "text": "[תמונה]",
+   "ts": 1793043464000,
+   "date": "2026-10-26",
+   "time": "21:37",
+   "files": [
+    {
+     "name": "תמונה.jpg",
+     "size": "42KB",
+     "type": "image/jpeg",
+     "path": "media/2026-10/1a179b80d4b56f81_1.jpg",
+     "skipped": ""
+    }
+   ],
    "drive": null
   }
  ]
