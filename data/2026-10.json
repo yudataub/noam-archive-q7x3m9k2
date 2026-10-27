@@ -1,7 +1,7 @@
 {
  "month": "2026-10",
  "group": "משפחת נעם תשפ״ז",
- "updated": "2026-10-26T20:51:17.610Z",
+ "updated": "2026-10-27T06:51:25.240Z",
  "messages": [
   {
    "id": "1a0f5abd033728c2",
@@ -4613,6 +4613,24 @@
    "date": "2026-10-26",
    "time": "22:11",
    "files": [],
+   "drive": null
+  },
+  {
+   "id": "1a17bf9cd0528917",
+   "sender": "המורה מלכה טרבלסי",
+   "text": "*לשם יחוד קודם ההצבעה בבחירות* | הגאון רבי שמואל אליהו שליט\"א\n\n*להצטרפות לקבוצה השקטה *\nhttps://whatsapp.com/channel/0029Vb7gLTwK0IBl0yHkmb0H",
+   "ts": 1793081323000,
+   "date": "2026-10-27",
+   "time": "08:08",
+   "files": [
+    {
+     "name": "תמונה.jpg",
+     "size": "297KB",
+     "type": "image/jpeg",
+     "path": "media/2026-10/1a17bf9cd0528917_1.jpg",
+     "skipped": ""
+    }
+   ],
    "drive": null
   }
  ]
