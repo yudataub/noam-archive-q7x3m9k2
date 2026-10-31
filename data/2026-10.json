@@ -1,7 +1,7 @@
 {
  "month": "2026-10",
  "group": "משפחת נעם תשפ״ז",
- "updated": "2026-10-31T17:51:23.905Z",
+ "updated": "2026-10-31T18:51:22.625Z",
  "messages": [
   {
    "id": "1a0f5abd033728c2",
@@ -5159,6 +5159,34 @@
      "skipped": ""
     }
    ],
+   "drive": null
+  },
+  {
+   "id": "1a1933402e7d3a90",
+   "sender": "המנהלת אורלי אוחנה",
+   "text": "[מסמך]",
+   "ts": 1793471009000,
+   "date": "2026-10-31",
+   "time": "20:23",
+   "files": [
+    {
+     "name": "שבוע עליות- יום א.docx",
+     "size": "13KB",
+     "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+     "path": "media/2026-10/1a1933402e7d3a90_1.docx",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a193345c8148bcc",
+   "sender": "המנהלת אורלי אוחנה",
+   "text": "☝️שבוע טוב.\nלו\"ז למחר",
+   "ts": 1793471033000,
+   "date": "2026-10-31",
+   "time": "20:23",
+   "files": [],
    "drive": null
   }
  ]
