@@ -1,7 +1,7 @@
 {
  "month": "2026-11",
  "group": "משפחת נעם תשפ״ז",
- "updated": "2026-11-02T08:51:17.224Z",
+ "updated": "2026-11-02T09:51:25.941Z",
  "messages": [
   {
    "id": "1a195b0743b5aa34",
@@ -252,6 +252,70 @@
    "ts": 1793606335000,
    "date": "2026-11-02",
    "time": "09:58",
+   "files": [],
+   "drive": null
+  },
+  {
+   "id": "1a19b78d5f0bdf1b",
+   "sender": "המורה הילה שמר",
+   "text": "למי שייך?",
+   "ts": 1793609744000,
+   "date": "2026-11-02",
+   "time": "10:55",
+   "files": [
+    {
+     "name": "תמונה.jpg",
+     "size": "208KB",
+     "type": "image/jpeg",
+     "path": "media/2026-11/1a19b78d5f0bdf1b_1.jpg",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a19b7dfe6a57ebf",
+   "sender": "הרב יהודה טאוב",
+   "text": "כיתה ה' ניצחה - בהרבה את כל הכיתות כל הכבוד!",
+   "ts": 1793610082000,
+   "date": "2026-11-02",
+   "time": "11:01",
+   "files": [
+    {
+     "name": "תמונה.jpg",
+     "size": "33KB",
+     "type": "image/jpeg",
+     "path": "media/2026-11/1a19b7dfe6a57ebf_1.jpg",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a19b7f62df8a095",
+   "sender": "הרב יהודה טאוב",
+   "text": "התלמידים המובילים בבית הספר",
+   "ts": 1793610174000,
+   "date": "2026-11-02",
+   "time": "11:02",
+   "files": [
+    {
+     "name": "תמונה.jpg",
+     "size": "34KB",
+     "type": "image/jpeg",
+     "path": "media/2026-11/1a19b7f62df8a095_1.jpg",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a19b823a84302c8",
+   "sender": "המורה גולי סבג",
+   "text": "https://shvilei-moreshet-noam.netlify.app/\nבוקר טוב,\nמצורף הקישור של שבילי מורשת שהכינה מיכל . לשימושכם המיטבי!!",
+   "ts": 1793610360000,
+   "date": "2026-11-02",
+   "time": "11:06",
    "files": [],
    "drive": null
   }
