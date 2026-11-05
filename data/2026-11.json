@@ -1,7 +1,7 @@
 {
  "month": "2026-11",
  "group": "משפחת נעם תשפ״ז",
- "updated": "2026-11-05T07:51:20.909Z",
+ "updated": "2026-11-05T08:51:19.759Z",
  "messages": [
   {
    "id": "1a195b0743b5aa34",
@@ -780,6 +780,24 @@
      "size": "61KB",
      "type": "image/jpeg",
      "path": "media/2026-11/1a1aa8dba2583964_1.jpg",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a1aac0fc57d005f",
+   "sender": "המורה גולי סבג",
+   "text": "סימניה של אדרבה לאחד משיעורי עין טובה.",
+   "ts": 1793866131000,
+   "date": "2026-11-05",
+   "time": "10:08",
+   "files": [
+    {
+     "name": "חינוך מתוך אמונה (1).pdf",
+     "size": "313KB",
+     "type": "application/pdf",
+     "path": "media/2026-11/1a1aac0fc57d005f_1.pdf",
      "skipped": ""
     }
    ],
