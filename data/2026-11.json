@@ -1,7 +1,7 @@
 {
  "month": "2026-11",
  "group": "משפחת נעם תשפ״ז",
- "updated": "2026-11-06T08:51:19.050Z",
+ "updated": "2026-11-06T10:51:25.998Z",
  "messages": [
   {
    "id": "1a195b0743b5aa34",
@@ -931,6 +931,88 @@
      "skipped": ""
     }
    ],
+   "drive": null
+  },
+  {
+   "id": "1a1b06ac32d26283",
+   "sender": "המנהלת אורלי אוחנה",
+   "text": "[מסמך]",
+   "ts": 1793961136000,
+   "date": "2026-11-06",
+   "time": "12:32",
+   "files": [
+    {
+     "name": "דף קשר חמד נעם קרית אתא.pdf",
+     "size": "3.9MB",
+     "type": "application/pdf",
+     "path": "",
+     "skipped": "גדול מדי לארכיון"
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a1b06aafed04dbc",
+   "sender": "המנהלת אורלי אוחנה",
+   "text": "[תמונה]",
+   "ts": 1793961136000,
+   "date": "2026-11-06",
+   "time": "12:32",
+   "files": [
+    {
+     "name": "תמונה.jpg",
+     "size": "497KB",
+     "type": "image/jpeg",
+     "path": "media/2026-11/1a1b06aafed04dbc_1.jpg",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a1b06aaa2b8e50b",
+   "sender": "המנהלת אורלי אוחנה",
+   "text": "[תמונה]",
+   "ts": 1793961136000,
+   "date": "2026-11-06",
+   "time": "12:32",
+   "files": [
+    {
+     "name": "תמונה.jpg",
+     "size": "574KB",
+     "type": "image/jpeg",
+     "path": "media/2026-11/1a1b06aaa2b8e50b_1.jpg",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a1b06aa95f77e45",
+   "sender": "המנהלת אורלי אוחנה",
+   "text": "[תמונה]",
+   "ts": 1793961136000,
+   "date": "2026-11-06",
+   "time": "12:32",
+   "files": [
+    {
+     "name": "תמונה.jpg",
+     "size": "568KB",
+     "type": "image/jpeg",
+     "path": "media/2026-11/1a1b06aa95f77e45_1.jpg",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a1b06b3e700d0e1",
+   "sender": "המנהלת אורלי אוחנה",
+   "text": "☝️יש לשלוח לקבוצת ההורים",
+   "ts": 1793961176000,
+   "date": "2026-11-06",
+   "time": "12:32",
+   "files": [],
    "drive": null
   }
  ]
