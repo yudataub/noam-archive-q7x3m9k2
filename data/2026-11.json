@@ -1,7 +1,7 @@
 {
  "month": "2026-11",
  "group": "משפחת נעם תשפ״ז",
- "updated": "2026-11-07T17:51:23.144Z",
+ "updated": "2026-11-07T18:51:23.300Z",
  "messages": [
   {
    "id": "1a195b0743b5aa34",
@@ -1135,6 +1135,70 @@
      "type": "image/jpeg",
      "path": "media/2026-11/1a1b71e08a2d2060_1.jpg",
      "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a1b744be490b1b1",
+   "sender": "המנהלת אורלי אוחנה",
+   "text": "[וידאו]",
+   "ts": 1794076095000,
+   "date": "2026-11-07",
+   "time": "20:28",
+   "files": [
+    {
+     "name": "וידאו.mp4",
+     "size": "694KB",
+     "type": "video/mp4",
+     "path": "media/2026-11/1a1b744be490b1b1_1.mp4",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a1b74822ebd3bae",
+   "sender": "המנהלת אורלי אוחנה",
+   "text": "https://sigd-trip.sites.tab.bot/ מוכנים לטוס לטיול לאתיופייה. המטוס מחכה לכםם",
+   "ts": 1794076318000,
+   "date": "2026-11-07",
+   "time": "20:31",
+   "files": [],
+   "drive": null
+  },
+  {
+   "id": "1a1b749b6e3b0a09",
+   "sender": "המנהלת אורלי אוחנה",
+   "text": "[מסמך]",
+   "ts": 1794076420000,
+   "date": "2026-11-07",
+   "time": "20:33",
+   "files": [
+    {
+     "name": "חג הסיגד- על שום מה.pdf",
+     "size": "283KB",
+     "type": "application/pdf",
+     "path": "media/2026-11/1a1b749b6e3b0a09_1.pdf",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a1b74a4e5018f38",
+   "sender": "המנהלת אורלי אוחנה",
+   "text": "[מסמך]",
+   "ts": 1794076456000,
+   "date": "2026-11-07",
+   "time": "20:34",
+   "files": [
+    {
+     "name": "המסע של יהודי אתיופיה-מצגת.pptx",
+     "size": "5.6MB",
+     "type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+     "path": "",
+     "skipped": "גדול מדי לארכיון"
     }
    ],
    "drive": null
