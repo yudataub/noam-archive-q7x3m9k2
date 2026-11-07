@@ -1,7 +1,7 @@
 {
  "month": "2026-11",
  "group": "משפחת נעם תשפ״ז",
- "updated": "2026-11-06T12:51:22.829Z",
+ "updated": "2026-11-07T17:51:23.144Z",
  "messages": [
   {
    "id": "1a195b0743b5aa34",
@@ -1091,6 +1091,52 @@
    "date": "2026-11-06",
    "time": "14:45",
    "files": [],
+   "drive": null
+  },
+  {
+   "id": "1a1b71d8f638b115",
+   "sender": "המנהלת אורלי אוחנה",
+   "text": "[מסמך]",
+   "ts": 1794073526000,
+   "date": "2026-11-07",
+   "time": "19:45",
+   "files": [
+    {
+     "name": "תכנון שבועי- חיי שרה.docx",
+     "size": "927KB",
+     "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+     "path": "media/2026-11/1a1b71d8f638b115_1.docx",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a1b71df34afcd93",
+   "sender": "המנהלת אורלי אוחנה",
+   "text": "לכל משפחת החמ\"ד היקרה!\nלרגל *חג הסיגד* שיחול ביום שני הבעל''ט אנו שמחים לשתף סרטון מיוחד שהפקנו בשנה שעברה במסגרת ''מסע בעקבות בתי כנסת ועדות ישראל''!\n\nhttps://did.li/kBcUY\n\nנשמח שתשתפו את הקישור בין צוותי החינוך והתלמידים",
+   "ts": 1794073553000,
+   "date": "2026-11-07",
+   "time": "19:45",
+   "files": [],
+   "drive": null
+  },
+  {
+   "id": "1a1b71e08a2d2060",
+   "sender": "המנהלת אורלי אוחנה",
+   "text": "מצרפת תיקייה עם חומרים שאיגדתי ואספתי בנושא חג הסיגד.\n\nhttps://drive.google.com/drive/folders/1HEbe5RW2Ssp_VkBKqP2ofdf6Ntv3Y_Vs?usp=drive_link",
+   "ts": 1794073558000,
+   "date": "2026-11-07",
+   "time": "19:45",
+   "files": [
+    {
+     "name": "תמונה.jpg",
+     "size": "128KB",
+     "type": "image/jpeg",
+     "path": "media/2026-11/1a1b71e08a2d2060_1.jpg",
+     "skipped": ""
+    }
+   ],
    "drive": null
   }
  ]
