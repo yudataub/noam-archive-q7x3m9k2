@@ -1,7 +1,7 @@
 {
  "month": "2026-11",
  "group": "משפחת נעם תשפ״ז",
- "updated": "2026-11-08T09:51:16.857Z",
+ "updated": "2026-11-08T12:51:18.332Z",
  "messages": [
   {
    "id": "1a195b0743b5aa34",
@@ -1228,6 +1228,16 @@
    "ts": 1794127959000,
    "date": "2026-11-08",
    "time": "10:52",
+   "files": [],
+   "drive": null
+  },
+  {
+   "id": "1a1bb1254b958d1b",
+   "sender": "המורה אביטל אסרף",
+   "text": "שבילי מורשת\nשיעור מספר 2:\nhttps://shvilei-moreshet-noam.netlify.app/",
+   "ts": 1794139898000,
+   "date": "2026-11-08",
+   "time": "14:11",
    "files": [],
    "drive": null
   }
