@@ -1,7 +1,7 @@
 {
  "month": "2026-11",
  "group": "משפחת נעם תשפ״ז",
- "updated": "2026-11-09T06:51:23.516Z",
+ "updated": "2026-11-09T07:51:28.927Z",
  "messages": [
   {
    "id": "1a195b0743b5aa34",
@@ -1396,6 +1396,106 @@
      "size": "203KB",
      "type": "image/jpeg",
      "path": "media/2026-11/1a1bf0eee29fdeec_1.jpg",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a1bf14734dfe4e2",
+   "sender": "המורה אביטל אסרף",
+   "text": "[תמונה]",
+   "ts": 1794207146000,
+   "date": "2026-11-09",
+   "time": "08:52",
+   "files": [
+    {
+     "name": "תמונה.jpg",
+     "size": "60KB",
+     "type": "image/jpeg",
+     "path": "media/2026-11/1a1bf14734dfe4e2_1.jpg",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a1bf14f440d5fe1",
+   "sender": "המורה הילה שמר",
+   "text": "[תמונה]",
+   "ts": 1794207179000,
+   "date": "2026-11-09",
+   "time": "08:52",
+   "files": [
+    {
+     "name": "תמונה.jpg",
+     "size": "203KB",
+     "type": "image/jpeg",
+     "path": "media/2026-11/1a1bf14f440d5fe1_1.jpg",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a1bf14f7c7fe9cf",
+   "sender": "המורה הילה שמר",
+   "text": "[תמונה]",
+   "ts": 1794207180000,
+   "date": "2026-11-09",
+   "time": "08:53",
+   "files": [
+    {
+     "name": "תמונה.jpg",
+     "size": "285KB",
+     "type": "image/jpeg",
+     "path": "media/2026-11/1a1bf14f7c7fe9cf_1.jpg",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a1bf1b9a334b44b",
+   "sender": "המורה למפ מיכל",
+   "text": "[תמונה]",
+   "ts": 1794207614000,
+   "date": "2026-11-09",
+   "time": "09:00",
+   "files": [
+    {
+     "name": "תמונה.jpg",
+     "size": "215KB",
+     "type": "image/jpeg",
+     "path": "media/2026-11/1a1bf1b9a334b44b_1.jpg",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a1bf1baa2245eb7",
+   "sender": "המורה למפ מיכל",
+   "text": "חג  סיגד שמח!",
+   "ts": 1794207618000,
+   "date": "2026-11-09",
+   "time": "09:00",
+   "files": [],
+   "drive": null
+  },
+  {
+   "id": "1a1bf4608bdcf66a",
+   "sender": "המורה הילה שמר",
+   "text": "[תמונה]",
+   "ts": 1794210395000,
+   "date": "2026-11-09",
+   "time": "09:46",
+   "files": [
+    {
+     "name": "תמונה.jpg",
+     "size": "278KB",
+     "type": "image/jpeg",
+     "path": "media/2026-11/1a1bf4608bdcf66a_1.jpg",
      "skipped": ""
     }
    ],
