@@ -1,7 +1,7 @@
 {
  "month": "2026-11",
  "group": "משפחת נעם תשפ״ז",
- "updated": "2026-11-11T07:51:20.417Z",
+ "updated": "2026-11-11T08:51:23.272Z",
  "messages": [
   {
    "id": "1a195b0743b5aa34",
@@ -1916,6 +1916,52 @@
      "size": "65KB",
      "type": "image/jpeg",
      "path": "media/2026-11/1a1c970eb57d3ea4_1.jpg",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a1c99e8f5efc5fa",
+   "sender": "המנהלת אורלי אוחנה",
+   "text": "כל צוות המורים מוזמן לחדר  מורים, הסייעות תורניות בחצר.\nחודש טוב ומבורך ❤️",
+   "ts": 1794383971000,
+   "date": "2026-11-11",
+   "time": "09:59",
+   "files": [],
+   "drive": null
+  },
+  {
+   "id": "1a1c9ac69abcc1bf",
+   "sender": "המורה הילה שמר",
+   "text": "[תמונה]",
+   "ts": 1794384877000,
+   "date": "2026-11-11",
+   "time": "10:14",
+   "files": [
+    {
+     "name": "תמונה.jpg",
+     "size": "331KB",
+     "type": "image/jpeg",
+     "path": "media/2026-11/1a1c9ac69abcc1bf_1.jpg",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a1c9ac6659a5a2c",
+   "sender": "המורה הילה שמר",
+   "text": "[תמונה]",
+   "ts": 1794384877000,
+   "date": "2026-11-11",
+   "time": "10:14",
+   "files": [
+    {
+     "name": "תמונה.jpg",
+     "size": "491KB",
+     "type": "image/jpeg",
+     "path": "media/2026-11/1a1c9ac6659a5a2c_1.jpg",
      "skipped": ""
     }
    ],
