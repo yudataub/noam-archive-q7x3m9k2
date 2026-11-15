@@ -1,7 +1,7 @@
 {
  "month": "2026-11",
  "group": "משפחת נעם תשפ״ז",
- "updated": "2026-11-14T20:51:19.981Z",
+ "updated": "2026-11-15T05:51:28.764Z",
  "messages": [
   {
    "id": "1a195b0743b5aa34",
@@ -2766,6 +2766,70 @@
    "ts": 1794686869000,
    "date": "2026-11-14",
    "time": "22:07",
+   "files": [],
+   "drive": null
+  },
+  {
+   "id": "1a1dd8d6aa16f659",
+   "sender": "המנהלת אורלי אוחנה",
+   "text": "[תמונה]",
+   "ts": 1794718387000,
+   "date": "2026-11-15",
+   "time": "06:53",
+   "files": [
+    {
+     "name": "תמונה.jpg",
+     "size": "500KB",
+     "type": "image/jpeg",
+     "path": "media/2026-11/1a1dd8d6aa16f659_1.jpg",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a1dd8dca0d2ccdf",
+   "sender": "המנהלת אורלי אוחנה",
+   "text": "[תמונה]",
+   "ts": 1794718412000,
+   "date": "2026-11-15",
+   "time": "06:53",
+   "files": [
+    {
+     "name": "תמונה.jpg",
+     "size": "568KB",
+     "type": "image/jpeg",
+     "path": "media/2026-11/1a1dd8dca0d2ccdf_1.jpg",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a1dd8dc213e26ea",
+   "sender": "המנהלת אורלי אוחנה",
+   "text": "[תמונה]",
+   "ts": 1794718412000,
+   "date": "2026-11-15",
+   "time": "06:53",
+   "files": [
+    {
+     "name": "תמונה.jpg",
+     "size": "574KB",
+     "type": "image/jpeg",
+     "path": "media/2026-11/1a1dd8dc213e26ea_1.jpg",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a1dd8e0af8231f4",
+   "sender": "המנהלת אורלי אוחנה",
+   "text": "בוקר טוב ❤️\nתעודדו בבקשה את התלמידים להכין תוצרים☝️",
+   "ts": 1794718430000,
+   "date": "2026-11-15",
+   "time": "06:53",
    "files": [],
    "drive": null
   }
