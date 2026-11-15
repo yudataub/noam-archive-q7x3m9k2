@@ -1,7 +1,7 @@
 {
  "month": "2026-11",
  "group": "משפחת נעם תשפ״ז",
- "updated": "2026-11-15T07:51:19.303Z",
+ "updated": "2026-11-15T17:51:22.864Z",
  "messages": [
   {
    "id": "1a195b0743b5aa34",
@@ -2846,6 +2846,52 @@
      "size": "64KB",
      "type": "image/jpeg",
      "path": "media/2026-11/1a1de1e7351df876_1.jpg",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a1e035971124dad",
+   "sender": "המורה מלכה אפטרגוט",
+   "text": "https://drive.google.com/file/d/15DtnnadVsFefFmUP7RJeD0tgVXGBU5DB/view?usp=sharing\r\nהקלטת מפגש מורות ב- ג",
+   "ts": 1794762962000,
+   "date": "2026-11-15",
+   "time": "19:16",
+   "files": [],
+   "drive": null
+  },
+  {
+   "id": "1a1e035bc5a97327",
+   "sender": "המורה מלכה אפטרגוט",
+   "text": "[מסמך]",
+   "ts": 1794762967000,
+   "date": "2026-11-15",
+   "time": "19:16",
+   "files": [
+    {
+     "name": "מטקסט לשיעור, צומחים מחדש לכיתות ב-ג, מפגש 3.pdf",
+     "size": "5.6MB",
+     "type": "application/pdf",
+     "path": "",
+     "skipped": "גדול מדי לארכיון"
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a1e037cb74f0c7a",
+   "sender": "הרב יהודה טאוב",
+   "text": "[תמונה]",
+   "ts": 1794763107000,
+   "date": "2026-11-15",
+   "time": "19:18",
+   "files": [
+    {
+     "name": "תמונה.jpg",
+     "size": "367KB",
+     "type": "image/jpeg",
+     "path": "media/2026-11/1a1e037cb74f0c7a_1.jpg",
      "skipped": ""
     }
    ],
