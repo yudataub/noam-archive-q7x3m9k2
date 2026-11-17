@@ -1,7 +1,7 @@
 {
  "month": "2026-11",
  "group": "משפחת נעם תשפ״ז",
- "updated": "2026-11-16T20:51:20.500Z",
+ "updated": "2026-11-17T18:51:21.687Z",
  "messages": [
   {
    "id": "1a195b0743b5aa34",
@@ -3261,6 +3261,52 @@
      "skipped": ""
     }
    ],
+   "drive": null
+  },
+  {
+   "id": "1a1eac1909c21ad6",
+   "sender": "המורה הילה שמר",
+   "text": "[תמונה]",
+   "ts": 1794939911000,
+   "date": "2026-11-17",
+   "time": "20:25",
+   "files": [
+    {
+     "name": "תמונה.jpg",
+     "size": "70KB",
+     "type": "image/jpeg",
+     "path": "media/2026-11/1a1eac1909c21ad6_1.jpg",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a1eac1c43ebc0f8",
+   "sender": "המורה הילה שמר",
+   "text": "[תמונה]",
+   "ts": 1794939925000,
+   "date": "2026-11-17",
+   "time": "20:25",
+   "files": [
+    {
+     "name": "תמונה.jpg",
+     "size": "61KB",
+     "type": "image/jpeg",
+     "path": "media/2026-11/1a1eac1c43ebc0f8_1.jpg",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a1eac328c0dccc7",
+   "sender": "המורה הילה שמר",
+   "text": "ברוך ה'\nהמשיכו לפרסם האתר ולהשתמש בו.\nתודה רבה על שיתוף הפעולה❤️",
+   "ts": 1794940016000,
+   "date": "2026-11-17",
+   "time": "20:26",
+   "files": [],
    "drive": null
   }
  ]
