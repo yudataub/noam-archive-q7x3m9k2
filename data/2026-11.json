@@ -1,7 +1,7 @@
 {
  "month": "2026-11",
  "group": "משפחת נעם תשפ״ז",
- "updated": "2026-11-21T17:51:26.875Z",
+ "updated": "2026-11-21T18:51:27.238Z",
  "messages": [
   {
    "id": "1a195b0743b5aa34",
@@ -3585,6 +3585,88 @@
    "date": "2026-11-21",
    "time": "19:23",
    "files": [],
+   "drive": null
+  },
+  {
+   "id": "1a1ff627e160636e",
+   "sender": "המנהלת אורלי אוחנה",
+   "text": "[מסמך]",
+   "ts": 1795286004000,
+   "date": "2026-11-21",
+   "time": "20:33",
+   "files": [
+    {
+     "name": "סיכום שבועי- פרשת ויצא.docx",
+     "size": "14KB",
+     "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+     "path": "media/2026-11/1a1ff627e160636e_1.docx",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a1ff6cca7016dc0",
+   "sender": "המנהלת אורלי אוחנה",
+   "text": "[תמונה]",
+   "ts": 1795286677000,
+   "date": "2026-11-21",
+   "time": "20:44",
+   "files": [
+    {
+     "name": "תמונה.jpg",
+     "size": "574KB",
+     "type": "image/jpeg",
+     "path": "media/2026-11/1a1ff6cca7016dc0_1.jpg",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a1ff6cc71e24d37",
+   "sender": "המנהלת אורלי אוחנה",
+   "text": "[תמונה]",
+   "ts": 1795286677000,
+   "date": "2026-11-21",
+   "time": "20:44",
+   "files": [
+    {
+     "name": "תמונה.jpg",
+     "size": "568KB",
+     "type": "image/jpeg",
+     "path": "media/2026-11/1a1ff6cc71e24d37_1.jpg",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a1ff6cf9bf732a4",
+   "sender": "המנהלת אורלי אוחנה",
+   "text": "☝️תשלחו שוב בבקשה להורים",
+   "ts": 1795286689000,
+   "date": "2026-11-21",
+   "time": "20:44",
+   "files": [],
+   "drive": null
+  },
+  {
+   "id": "1a1ff6e78867b9cf",
+   "sender": "המנהלת אורלי אוחנה",
+   "text": "[מסמך]",
+   "ts": 1795286787000,
+   "date": "2026-11-21",
+   "time": "20:46",
+   "files": [
+    {
+     "name": "מערכת מחשבים.docx",
+     "size": "27KB",
+     "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+     "path": "media/2026-11/1a1ff6e78867b9cf_1.docx",
+     "skipped": ""
+    }
+   ],
    "drive": null
   }
  ]
