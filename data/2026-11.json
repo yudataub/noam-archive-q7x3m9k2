@@ -1,7 +1,7 @@
 {
  "month": "2026-11",
  "group": "משפחת נעם תשפ״ז",
- "updated": "2026-11-22T15:51:26.854Z",
+ "updated": "2026-11-22T16:51:57.762Z",
  "messages": [
   {
    "id": "1a195b0743b5aa34",
@@ -3902,6 +3902,280 @@
    "ts": 1795360637000,
    "date": "2026-11-22",
    "time": "17:17",
+   "files": [],
+   "drive": null
+  },
+  {
+   "id": "1a203f88165a93b0",
+   "sender": "המנהלת אורלי אוחנה",
+   "text": "[תמונה]",
+   "ts": 1795362937000,
+   "date": "2026-11-22",
+   "time": "17:55",
+   "files": [
+    {
+     "name": "תמונה.jpg",
+     "size": "369KB",
+     "type": "image/jpeg",
+     "path": "media/2026-11/1a203f88165a93b0_1.jpg",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a2040e65f781859",
+   "sender": "המנהלת אורלי אוחנה",
+   "text": "[תמונה]",
+   "ts": 1795364374000,
+   "date": "2026-11-22",
+   "time": "18:19",
+   "files": [
+    {
+     "name": "תמונה.jpg",
+     "size": "223KB",
+     "type": "image/jpeg",
+     "path": "media/2026-11/1a2040e65f781859_1.jpg",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a2040e72ea0742a",
+   "sender": "המנהלת אורלי אוחנה",
+   "text": "[וידאו]",
+   "ts": 1795364378000,
+   "date": "2026-11-22",
+   "time": "18:19",
+   "files": [],
+   "drive": {
+    "name": "וידאו.mp4",
+    "size": "38.8MB",
+    "url": "https://drive.google.com/file/d/1eGr-8rwI_isCCuVXm7A8Hx2u-tHcFaFd/view?usp=drivesdk"
+   }
+  },
+  {
+   "id": "1a2040ec658ae235",
+   "sender": "המנהלת אורלי אוחנה",
+   "text": "[תמונה]",
+   "ts": 1795364397000,
+   "date": "2026-11-22",
+   "time": "18:19",
+   "files": [
+    {
+     "name": "תמונה.jpg",
+     "size": "330KB",
+     "type": "image/jpeg",
+     "path": "media/2026-11/1a2040ec658ae235_1.jpg",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a2040ec5e8bb565",
+   "sender": "המנהלת אורלי אוחנה",
+   "text": "[תמונה]",
+   "ts": 1795364397000,
+   "date": "2026-11-22",
+   "time": "18:19",
+   "files": [
+    {
+     "name": "תמונה.jpg",
+     "size": "339KB",
+     "type": "image/jpeg",
+     "path": "media/2026-11/1a2040ec5e8bb565_1.jpg",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a2040ec59238e7b",
+   "sender": "המנהלת אורלי אוחנה",
+   "text": "[תמונה]",
+   "ts": 1795364397000,
+   "date": "2026-11-22",
+   "time": "18:19",
+   "files": [
+    {
+     "name": "תמונה.jpg",
+     "size": "433KB",
+     "type": "image/jpeg",
+     "path": "media/2026-11/1a2040ec59238e7b_1.jpg",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a2040ec341d9d49",
+   "sender": "המנהלת אורלי אוחנה",
+   "text": "[תמונה]",
+   "ts": 1795364397000,
+   "date": "2026-11-22",
+   "time": "18:19",
+   "files": [
+    {
+     "name": "תמונה.jpg",
+     "size": "361KB",
+     "type": "image/jpeg",
+     "path": "media/2026-11/1a2040ec341d9d49_1.jpg",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a2040ec05631125",
+   "sender": "המנהלת אורלי אוחנה",
+   "text": "[תמונה]",
+   "ts": 1795364397000,
+   "date": "2026-11-22",
+   "time": "18:19",
+   "files": [
+    {
+     "name": "תמונה.jpg",
+     "size": "251KB",
+     "type": "image/jpeg",
+     "path": "media/2026-11/1a2040ec05631125_1.jpg",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a2040ebfe67a373",
+   "sender": "המנהלת אורלי אוחנה",
+   "text": "[תמונה]",
+   "ts": 1795364397000,
+   "date": "2026-11-22",
+   "time": "18:19",
+   "files": [
+    {
+     "name": "תמונה.jpg",
+     "size": "327KB",
+     "type": "image/jpeg",
+     "path": "media/2026-11/1a2040ebfe67a373_1.jpg",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a2040ed3dddca41",
+   "sender": "המנהלת אורלי אוחנה",
+   "text": "[תמונה]",
+   "ts": 1795364398000,
+   "date": "2026-11-22",
+   "time": "18:19",
+   "files": [
+    {
+     "name": "תמונה.jpg",
+     "size": "324KB",
+     "type": "image/jpeg",
+     "path": "media/2026-11/1a2040ed3dddca41_1.jpg",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a2040ecba924c0b",
+   "sender": "המנהלת אורלי אוחנה",
+   "text": "[תמונה]",
+   "ts": 1795364398000,
+   "date": "2026-11-22",
+   "time": "18:19",
+   "files": [
+    {
+     "name": "תמונה.jpg",
+     "size": "377KB",
+     "type": "image/jpeg",
+     "path": "media/2026-11/1a2040ecba924c0b_1.jpg",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a2040ec8e1629fa",
+   "sender": "המנהלת אורלי אוחנה",
+   "text": "[תמונה]",
+   "ts": 1795364398000,
+   "date": "2026-11-22",
+   "time": "18:19",
+   "files": [
+    {
+     "name": "תמונה.jpg",
+     "size": "421KB",
+     "type": "image/jpeg",
+     "path": "media/2026-11/1a2040ec8e1629fa_1.jpg",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a2040ecd4ebfe88",
+   "sender": "המנהלת אורלי אוחנה",
+   "text": "[תמונה]",
+   "ts": 1795364399000,
+   "date": "2026-11-22",
+   "time": "18:19",
+   "files": [
+    {
+     "name": "תמונה.jpg",
+     "size": "392KB",
+     "type": "image/jpeg",
+     "path": "media/2026-11/1a2040ecd4ebfe88_1.jpg",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a2040ece33accdf",
+   "sender": "המנהלת אורלי אוחנה",
+   "text": "[וידאו]",
+   "ts": 1795364400000,
+   "date": "2026-11-22",
+   "time": "18:20",
+   "files": [],
+   "drive": {
+    "name": "וידאו.mp4",
+    "size": "38.8MB",
+    "url": "https://drive.google.com/file/d/1o7nRMIrF568DiRKVyTGG3Jat2i7qSUcl/view?usp=drivesdk"
+   }
+  },
+  {
+   "id": "1a2041aace361440",
+   "sender": "המורה למפ מיכל",
+   "text": "וואווו... כל הכבוד ויישר כח! מפגש מיוחד כיאה ל\"מועצת הקהל\" מכובדת!",
+   "ts": 1795365178000,
+   "date": "2026-11-22",
+   "time": "18:32",
+   "files": [],
+   "drive": null
+  },
+  {
+   "id": "1a2041aed310024f",
+   "sender": "המורה למפ מיכל",
+   "text": "נראה מהמם❤️",
+   "ts": 1795365195000,
+   "date": "2026-11-22",
+   "time": "18:33",
+   "files": [],
+   "drive": null
+  },
+  {
+   "id": "1a2041d35fd8b6d1",
+   "sender": "המנהלת אורלי אוחנה",
+   "text": "יישר כח גדול למורות ג'ולי ומלי היקרות על מפגש פתיחה מעצים ומרשים מאוד.\nהילדים חזרו מאושרים לכיתות❤️❤️",
+   "ts": 1795365345000,
+   "date": "2026-11-22",
+   "time": "18:35",
    "files": [],
    "drive": null
   }
