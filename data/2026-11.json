@@ -1,7 +1,7 @@
 {
  "month": "2026-11",
  "group": "משפחת נעם תשפ״ז",
- "updated": "2026-11-24T05:51:28.876Z",
+ "updated": "2026-11-24T07:51:19.340Z",
  "messages": [
   {
    "id": "1a195b0743b5aa34",
@@ -4500,6 +4500,24 @@
      "size": "545KB",
      "type": "image/jpeg",
      "path": "media/2026-11/1a20bf3dc3b06e18_1.jpg",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a20c5c34ad17506",
+   "sender": "המורה אביטל אסרף",
+   "text": "[תמונה]",
+   "ts": 1795503695000,
+   "date": "2026-11-24",
+   "time": "09:01",
+   "files": [
+    {
+     "name": "תמונה.jpg",
+     "size": "64KB",
+     "type": "image/jpeg",
+     "path": "media/2026-11/1a20c5c34ad17506_1.jpg",
      "skipped": ""
     }
    ],
