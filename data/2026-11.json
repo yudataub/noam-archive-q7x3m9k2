@@ -1,7 +1,7 @@
 {
  "month": "2026-11",
  "group": "משפחת נעם תשפ״ז",
- "updated": "2026-11-23T20:51:19.702Z",
+ "updated": "2026-11-24T04:51:33.734Z",
  "messages": [
   {
    "id": "1a195b0743b5aa34",
@@ -4380,6 +4380,42 @@
      "size": "324KB",
      "type": "image/jpeg",
      "path": "media/2026-11/1a20a02b44bf200c_1.jpg",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a20bdf67ca1fbd8",
+   "sender": "הרב יהודה טאוב",
+   "text": "מצורף חידון לכיתה למי שמעוניין מתוך החוברת וההלכות\n\nsent via JONI",
+   "ts": 1795495515000,
+   "date": "2026-11-24",
+   "time": "06:45",
+   "files": [
+    {
+     "name": "חידון חנוכה ה-ו - 20 שאלות.pdf",
+     "size": "180KB",
+     "type": "application/pdf",
+     "path": "media/2026-11/1a20bdf67ca1fbd8_1.pdf",
+     "skipped": ""
+    }
+   ],
+   "drive": null
+  },
+  {
+   "id": "1a20bdf9f615d30f",
+   "sender": "הרב יהודה טאוב",
+   "text": "sent via JONI",
+   "ts": 1795495530000,
+   "date": "2026-11-24",
+   "time": "06:45",
+   "files": [
+    {
+     "name": "חידון חנוכה ג-ד - 20 שאלות.pdf",
+     "size": "178KB",
+     "type": "application/pdf",
+     "path": "media/2026-11/1a20bdf9f615d30f_1.pdf",
      "skipped": ""
     }
    ],
